@@ -1,45 +1,46 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "jest": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "overrides": [],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "tsx": true
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "jest": true
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["react", "@typescript-eslint"],
-  "rules": {
-    "react/jsx-filename-extension": [
-      2,
-      { "extensions": [".ts", ".tsx"] }
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended"
     ],
-    "react/function-component-definition": "off",
-    "arrow-body-style": "off",
-    "react/react-in-jsx-scope": "off",
-    "no-param-reassign": ["error", { "props": false }],
-    "react/prop-types": "off",
-    "no-restricted-exports": "off",
-    "react/jsx-props-no-spreading": "off",
-    "import/no-cycle": "off",
-    "import/prefer-default-export": "off"
+    "overrides": [],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "tsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+      "react/jsx-filename-extension": [
+        2,
+        { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+      ],
+      "react/function-component-definition": "off",
+      "arrow-body-style": "off",
+      "react/react-in-jsx-scope": "off",
+      "no-param-reassign": ["error", { "props": false }],
+      "react/prop-types": "off",
+      "no-restricted-exports": "off",
+      "react/jsx-props-no-spreading": "off",
+      "import/no-cycle": "off",
+      "import/prefer-default-export": "off"
+    }
   }
-}
+  

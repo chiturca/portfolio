@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './index.scss';
 
 function Navbar() {
-  const [expand, setExpand] = useState(false);
+  const [expand, setExpand] = useState<boolean>(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -24,7 +24,6 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
-        <Link to="/about">About</Link>
       </div>
     </div>
   );

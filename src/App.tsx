@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import About from './containers/About';
-import Experience from './containers/Experience';
+import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import Projects from './containers/Projects';
-import Navbar from './components/Navbar';
+import Experience from './containers/Experience';
+import Footer from './components/Footer';
 import './App.scss';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
-        <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
