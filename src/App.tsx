@@ -4,7 +4,7 @@ import Experience from './containers/Experience';
 import Home from './containers/Home';
 import Projects from './containers/Projects';
 import Navbar from './components/Navbar';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
