@@ -30,7 +30,7 @@
   "rules": {
     "react/jsx-filename-extension": [
       2,
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+      { "extensions": [".ts", ".tsx"] }
     ],
     "react/function-component-definition": "off",
     "arrow-body-style": "off",
