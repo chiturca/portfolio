@@ -82,8 +82,8 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">Ankara University</h3>
           <h4 className="vertical-timeline-element-subtitle">Bachelor of Arts -Sociology</h4>
           <p>
-            Undergraduate thesis: Crime Sociology on Çinçin and Yenidoğan neighbourhood : Alteration
-            on crime due to urban renewal
+            Undergraduation thesis: Crime Sociology on Çinçin and Yenidoğan neighbourhood :
+            Alteration on crime due to urban renewal
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

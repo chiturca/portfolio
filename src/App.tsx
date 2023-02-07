@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import Projects from './containers/Projects';
+import ProjectDisplay from './containers/ProjectDisplay';
 import Experience from './containers/Experience';
 import Footer from './components/Footer';
 import './App.scss';
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDisplay />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
       <Footer />
