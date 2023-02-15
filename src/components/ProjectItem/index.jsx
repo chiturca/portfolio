@@ -10,7 +10,11 @@ function ProjectItem({ image, name, id }) {
         navigate('/projects/' + id);
       }}>
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      <h1>{name}</h1>
+      <div className="projectdetails">
+        <h1>{name}</h1>
+        <button>GitHub</button>
+        <button>Website</button>
+      </div>
     </div>
   );
 }
