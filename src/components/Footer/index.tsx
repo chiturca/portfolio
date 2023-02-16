@@ -27,7 +27,7 @@ function Footer() {
           </a>
         </button>
       </div>
-      <p> &copy; YEAR FUNCTION 2023 miraysonmez.vercel.app</p>
+      <p> &copy; {new Date().getFullYear()} miraysonmez.vercel.app</p>
     </div>
   );
 }
