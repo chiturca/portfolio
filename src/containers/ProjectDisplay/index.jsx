@@ -16,6 +16,18 @@ function ProjectDisplay() {
       <p>
         <b>Summary:</b> {project.summary}{' '}
       </p>
+      <p>
+        <button>
+          <a href={project.github} target="_blank" rel="noreferrer">
+            Github
+          </a>
+        </button>{' '}
+        <button>
+          <a href={project.website} target="_blank" rel="noreferrer">
+            Website
+          </a>
+        </button>{' '}
+      </p>
     </div>
   );
 }
