@@ -6,7 +6,10 @@ function Home() {
     <div className="home">
       <div className="about">
         <h2>Hi, I am Miray Sönmez</h2>
-        <p>Frontend Web Developer</p>
+        <p>
+          A Frontend Web Developer based on Ankara-Türkiye. Passionate about creating single page
+          web applications and always ready to learn more.
+        </p>
       </div>
       <div className="skills">
         <h1>Skills</h1>
