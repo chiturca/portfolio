@@ -4,6 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
+import './index.scss';
 
 function Experience() {
   return (
@@ -64,7 +65,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2014 - Present"
-          iconStyle={{ background: '#fff', color: '#fff' }}
+          iconStyle={{ background: '#fff', color: '#8a2be2' }}
           icon={<VolunteerActivismOutlinedIcon />}>
           <h3 className="vertical-timeline-element-title">
             Ankara Youth Philharmonic Orchestra/Polyphonic Choir - AGFO
