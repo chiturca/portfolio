@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../../helpers/ProjectList';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import HttpIcon from '@mui/icons-material/Http';
 import './index.scss';
 
 function ProjectDisplay() {
@@ -10,23 +12,19 @@ function ProjectDisplay() {
     <div className="project">
       <h1>{project.name}</h1>
       <img src={project.image} alt={project.name} />
+      <div className="link">
+        <a href={project.github} target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a>
+        <a href={project.website} target="_blank" rel="noreferrer">
+          <HttpIcon />
+        </a>
+      </div>
       <p>
         <b>Skills:</b> {project.skills}{' '}
       </p>
       <p>
         <b>Summary:</b> {project.summary}{' '}
-      </p>
-      <p>
-        <button>
-          <a href={project.github} target="_blank" rel="noreferrer">
-            Github
-          </a>
-        </button>{' '}
-        <button>
-          <a href={project.website} target="_blank" rel="noreferrer">
-            Website
-          </a>
-        </button>{' '}
       </p>
     </div>
   );

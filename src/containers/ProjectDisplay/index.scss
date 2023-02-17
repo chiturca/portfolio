@@ -12,6 +12,7 @@
   .project h1 {
     margin-top: 50px;
     font-size: 35px;
+    color: #8a2be2;
   }
   .project img {
     width: 700px;
@@ -20,10 +21,17 @@
   
   .project p {
     font-size: 20px;
-    color: #3e497a;
+    color: #8a2be2;
+  }
+
+  .link {
+    position: absolute;
+    left: 16em;
+    display: flex;
+    flex-direction: column;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #8a2be2;
   }
