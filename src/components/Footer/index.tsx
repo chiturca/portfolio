@@ -1,31 +1,28 @@
 import React from 'react';
-import './index.scss';
 import CV from '../../assets/footer/Miray_Sönmez.pdf';
+import DownloadIcon from '@mui/icons-material/Download';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import './index.scss';
 
 function Footer() {
   return (
     <div className="footer">
-      <div className="contact">
-        <button className="cv">
-          <a href={CV} download>
-            download CV
-          </a>
-        </button>
-        <button className="email">
-          <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
-            Email
-          </a>
-        </button>
-        <button className="github">
-          <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
-            Github
-          </a>
-        </button>
-        <button className="linkedin">
-          <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
-            Likedin
-          </a>
-        </button>
+      <div className="socialMedia">
+        <a href={CV} download className="cv">
+          <button>CV</button>
+          <DownloadIcon />
+        </a>
+        <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
+          <EmailIcon />
+        </a>
+        <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a>
+        <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
+          <LinkedInIcon />
+        </a>
       </div>
       <p> &copy; {new Date().getFullYear()} miraysonmez.vercel.app</p>
     </div>

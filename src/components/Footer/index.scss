@@ -9,12 +9,26 @@
     padding-top: 10px;
   }
   
-  // .socialMedia svg {
-  //   color: white;
-  //   margin: 20px;
-  //   font-size: 70px;
-  //   cursor: pointer;
-  // }
+  .socialMedia svg {
+    color: white;
+    background: transparent;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+
+  button {
+    position: relative;
+    bottom: 2em;
+    left: 2em;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    // text-decoration: underline;
+    // text-decoration-line: bold;
+  }
   
   .footer p {
     color: white;
