@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from '../../assets/navbar/logo.svg';
+import MenuIcon from '@mui/icons-material/Menu';
 import './index.scss';
 
 function Navbar() {
-  const [expand, setExpand] = useState<boolean>(false);
+  const [expand, setExpand] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -17,10 +19,13 @@ function Navbar() {
           onClick={() => {
             setExpand((prev) => !prev);
           }}>
-          bars
+          <MenuIcon />
         </button>
       </div>
       <div className="links">
+        <Link className="logo" to="/">
+          <img src={Logo} alt="logo" />
+        </Link>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
