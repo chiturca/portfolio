@@ -12,6 +12,13 @@
     justify-content: center;
     color: white;
   }
+
+  .logo {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: 48em;
+  }
   
   .navbar a {
     color: white;
