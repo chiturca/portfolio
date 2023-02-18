@@ -1,5 +1,8 @@
 $primary-color: #9A73CC;
 $secondary-color: #F6DBFF;
+$third-color: #281041;
+$forth-color: rgb(240, 229, 252); 
+$fifth-color: #b08ced;
 
 @import 'animate.css';
 
@@ -9,8 +12,8 @@ $secondary-color: #F6DBFF;
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(240, 229, 252);
-  color: #9A73CC;
+  background-color: #9A73CC;
+  color: #281041;
 }
 
 body {

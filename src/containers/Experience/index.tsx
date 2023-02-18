@@ -9,7 +9,7 @@ import './index.scss';
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#281041">
+      <VerticalTimeline lineColor="#fff">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2022 - February 2023"
@@ -22,7 +22,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2019 - September 2020"
-          iconStyle={{ background: '#b08ced', color: '#fff' }}
+          iconStyle={{ background: '#281041', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -36,7 +36,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="September 2018 - March 2019"
-          iconStyle={{ background: '#b08ced', color: '#fff' }}
+          iconStyle={{ background: '#281041', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi - Full Time</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -47,7 +47,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2018 - July 2018"
-          iconStyle={{ background: '#b08ced', color: '#fff' }}
+          iconStyle={{ background: '#281041', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Tea Co. - Full Time</h3>
           <h4 className="vertical-timeline-element-subtitle">Barista</h4>
@@ -56,7 +56,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2015 - June 2016"
-          iconStyle={{ background: '#b08ced', color: '#fff' }}
+          iconStyle={{ background: '#281041', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">RS Plan-Project - Seasonal</h3>
           <h4 className="vertical-timeline-element-subtitle">Project Manager</h4>
@@ -65,7 +65,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2014 - Present"
-          iconStyle={{ background: '#fff', color: '#8a2be2' }}
+          iconStyle={{ background: '#fff', color: '#9A73CC' }}
           icon={<VolunteerActivismOutlinedIcon />}>
           <h3 className="vertical-timeline-element-title">
             Ankara Youth Philharmonic Orchestra/Polyphonic Choir - AGFO
