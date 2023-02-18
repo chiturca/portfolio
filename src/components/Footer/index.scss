@@ -14,34 +14,22 @@
   
   .socialMedia{
     padding-right: 2em;
-  }
-  .socialMedia svg {
-    color: white;
-    background: transparent;
-    margin: 20px;
-    font-size: 50px;
-    cursor: pointer;
-    
-    i {
-      transition: all 0.3s ease-out;
-    }
 
-    &:hover{
-      color: #9A73CC;
+    svg {
+      color: white;
+      background: transparent;
+      margin: 20px;
+      font-size: 50px;
+      cursor: pointer;
+      
+      i {
+        transition: all 0.3s ease-out;
+      }
+  
+      &:hover{
+        color: #9A73CC;
+      }  
     }
-  }
-
-  button {
-    position: relative;
-    bottom: 2em;
-    left: 2em;
-    color: white;
-    font-size: large;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    // text-decoration: underline;
-    // text-decoration-line: bold;
   }
   
   .footer p {

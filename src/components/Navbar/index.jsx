@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import Logo from '../../assets/navbar/logo.svg';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
+import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import './index.scss';
 
 function Navbar() {
@@ -19,18 +22,24 @@ function Navbar() {
           <img src={Logo} alt="logo" />
         </Link>
       </div>
-      <div className="toggleButton">
+      {/* <div className="toggleButton">
         <button
           onClick={() => {
             setExpand((prev) => !prev);
           }}>
           <MenuIcon />
         </button>
-      </div>
+      </div> */}
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link>
+        <NavLink exact="true" activeclassname="active" to="/">
+          <HomeIcon />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/projects">
+          <CollectionsBookmarkIcon />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/experience">
+          <WorkHistoryIcon />
+        </NavLink>
       </div>
     </div>
   );
