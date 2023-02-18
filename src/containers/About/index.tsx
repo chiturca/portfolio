@@ -5,6 +5,7 @@ import './index.scss';
 function About() {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
   const aboutArray = ['A', 'b', 'o', 'u', 't', ' ', 'M', 'e'];
+  const skillsArray = ['S', 'k', 'i', 'l', 'l', 's'];
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,15 +20,22 @@ function About() {
           <h1>
             <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
           </h1>
-          <p>Lorem ipsum</p>
-          <h2>Skills</h2>
+          <p>
+            I am an ambitious frontend web developer looking for a role in an established IT company
+            with the opportunity to work with the latest technologies.
+          </p>
+          <br />
+          <p>I am quite curious, detail oriented and a collaborative team player.</p>
+          <h2>
+            <AnimatedLetters letterClass={letterClass} strArray={skillsArray} idx={3} />
+          </h2>
           <p>
             Javascript, Typescript, ReactJS, <br />
-            Redux, Firebase, Postman, HTML, <br />
+            Redux, Firebase, HTML, <br />
             CSS, SCSS, BootStrap, TailwindCSS
           </p>
         </div>
-        <div></div>
+        <div className="cube"></div>
       </div>
     </div>
   );

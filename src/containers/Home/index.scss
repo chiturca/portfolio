@@ -1,19 +1,20 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    text-align: center;
-    padding-bottom: 7em;
-  }
-  
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  padding-bottom: 40em;
+
   .intro {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
 
     h1 {
       font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -29,6 +30,8 @@
       height: 50px;
     }
   }
+  
+}
   
   @media only screen and (max-width: 600px) {
     .about h2 {
