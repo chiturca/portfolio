@@ -14,6 +14,11 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expand ? 'open' : 'close'}>
+      <div className="logo">
+        <Link to="/">
+          <img src={Logo} alt="logo" />
+        </Link>
+      </div>
       <div className="toggleButton">
         <button
           onClick={() => {
@@ -23,9 +28,6 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link className="logo" to="/">
-          <img src={Logo} alt="logo" />
-        </Link>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>

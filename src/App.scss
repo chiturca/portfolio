@@ -3,7 +3,6 @@ $secondary-color: #F6DBFF;
 
 @import 'animate.css';
 
-
 .App {
   width: 100%;
   height: auto;
@@ -11,6 +10,7 @@ $secondary-color: #F6DBFF;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(240, 229, 252);
+  color: #281041;
 }
 
 body {

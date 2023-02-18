@@ -9,7 +9,7 @@ import './index.scss';
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="blueviolet">
+      <VerticalTimeline lineColor="#281041">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2022 - February 2023"

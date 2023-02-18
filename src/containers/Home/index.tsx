@@ -8,7 +8,7 @@ function Home() {
         <h2>Hi, I am Miray Sönmez</h2>
         <p>
           A Frontend Web Developer based on Ankara-Türkiye. Passionate about creating single page
-          web applications and always ready to learn more.
+          web applications and always ready to create more. Contact me for your projects.
         </p>
       </div>
       <div className="skills">
