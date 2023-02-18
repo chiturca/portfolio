@@ -9,7 +9,7 @@ function Home() {
         <p>
           A Frontend Web Developer based on Ankara-Türkiye. <br />
           Passionate about creating single page web applications and always ready to create more.{' '}
-          <br /> Contact me for your projects.
+          <br /> Contact me
         </p>
       </div>
       <div className="skills">

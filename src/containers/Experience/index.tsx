@@ -22,7 +22,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2019 - September 2020"
-          iconStyle={{ background: '#281041', color: '#fff' }}
+          iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -36,7 +36,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="September 2018 - March 2019"
-          iconStyle={{ background: '#281041', color: '#fff' }}
+          iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi - Full Time</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -47,7 +47,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2018 - July 2018"
-          iconStyle={{ background: '#281041', color: '#fff' }}
+          iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Tea Co. - Full Time</h3>
           <h4 className="vertical-timeline-element-subtitle">Barista</h4>
@@ -56,7 +56,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2015 - June 2016"
-          iconStyle={{ background: '#281041', color: '#fff' }}
+          iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">RS Plan-Project - Seasonal</h3>
           <h4 className="vertical-timeline-element-subtitle">Project Manager</h4>
