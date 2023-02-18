@@ -37,7 +37,7 @@ function About() {
         </div>
         <div className="cube">
           <div className="cubespinner">
-            <div className="face1"></div>
+            <div className="face1">{/* <FontAwesomeIcon /> */}</div>
             <div className="face2"></div>
             <div className="face3"></div>
             <div className="face4"></div>
