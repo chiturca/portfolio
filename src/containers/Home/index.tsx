@@ -7,16 +7,18 @@ function Home() {
       <div className="about">
         <h2>Hi, I am Miray Sönmez</h2>
         <p>
-          A Frontend Web Developer based on Ankara-Türkiye. Passionate about creating single page
-          web applications and always ready to create more. Contact me for your projects.
+          A Frontend Web Developer based on Ankara-Türkiye. <br />
+          Passionate about creating single page web applications and always ready to create more.{' '}
+          <br /> Contact me for your projects.
         </p>
       </div>
       <div className="skills">
         <h1>Skills</h1>
-        <span>
-          Javascript, Typescript, ReactJS, Redux, Firebase, Postman, HTML, CSS, BootStrap,
-          TailwindCSS, npm, Visual Studio Code, ubuntu
-        </span>
+        <p>
+          Javascript, Typescript, ReactJS, <br />
+          Redux, Firebase, Postman, HTML, <br />
+          CSS, SCSS, BootStrap, TailwindCSS
+        </p>
       </div>
     </div>
   );
