@@ -1,16 +1,19 @@
 .footer {
-    width: 100%;
-    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 80em;
+    width: 100px;
+    height: 100%;
     background: #281041;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
+    text-align: start;
   }
   
   .socialMedia{
-    padding-top: 20px;
+    padding-right: 2em;
   }
   .socialMedia svg {
     color: white;

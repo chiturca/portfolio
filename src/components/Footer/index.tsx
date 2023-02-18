@@ -11,7 +11,6 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a href={CV} download className="cv">
-          <button>CV</button>
           <DownloadIcon />
         </a>
         <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
@@ -24,7 +23,10 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p> &copy; {new Date().getFullYear()} miraysonmez.vercel.app</p>
+      <p>
+        {' '}
+        &copy; {new Date().getFullYear()} <br /> miraysonmez
+      </p>
     </div>
   );
 }
