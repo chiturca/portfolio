@@ -32,4 +32,12 @@
   .project svg {
     font-size: 60px;
     color: #9A73CC;
+    cursor: pointer;
+    i {
+      transition: all 0.3s ease-in;
+      scale: 110%;
+    }
+    &:hover{
+      scale: 120%;
+    }  
   }
