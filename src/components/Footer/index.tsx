@@ -24,7 +24,7 @@ function Footer() {
       </div>
       <p>
         {' '}
-        &copy; {new Date().getFullYear()} <br /> miraysonmez
+        &copy; {new Date().getFullYear()} <br />
       </p>
     </div>
   );

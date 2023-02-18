@@ -16,7 +16,7 @@ function Projects() {
   return (
     <div className="projects">
       <h1 className="projectTitle">
-        <AnimatedLetters letterClass={letterClass} strArray={projectsArray} idx={3} />
+        <AnimatedLetters letterClass={letterClass} strArray={projectsArray} idx={1} />
       </h1>
       <div className="projectList">
         {ProjectList.map((project, index) => {

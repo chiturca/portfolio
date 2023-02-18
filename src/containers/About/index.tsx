@@ -18,7 +18,7 @@ function About() {
       <div>
         <div className="aboutme">
           <h1>
-            <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
+            <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={1} />
           </h1>
           <p>
             I am an ambitious frontend web developer looking for a role in an established IT company

@@ -55,11 +55,11 @@ function Home() {
     <div className="home">
       <div className="intro">
         <h1>
-          <AnimatedLetters letterClass={letterClass} strArray={salutArray} idx={3} /> <br />
-          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={6} />
+          <AnimatedLetters letterClass={letterClass} strArray={salutArray} idx={1} /> <br />
+          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={1} />
         </h1>
         <p>
-          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={23} /> <br />
+          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={1} /> <br />
         </p>
       </div>
     </div>
