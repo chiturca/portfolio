@@ -1,14 +1,44 @@
-import React from 'react';
+import { useState } from 'react';
+import AnimatedLetters from '../../components/AnimatedLetters';
 import './index.scss';
 
 function Home() {
+  const [letterClass] = useState<string>('text-animate');
+  const nameArray = ['M', 'i', 'r', 'a', 'y', ' ', 'S', 'ö', 'n', 'm', 'e', 'z'];
+  const jobArray = [
+    'F',
+    'r',
+    'o',
+    'n',
+    't',
+    'e',
+    'n',
+    'd',
+    ' ',
+    'w',
+    'e',
+    'b',
+    ' ',
+    'd',
+    'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
+    'e',
+    'r'
+  ];
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I am Miray Sönmez</h2>
+        <h1>
+          Hi, I am <br />
+          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+        </h1>
         <p>
-          A Frontend Web Developer based on Ankara-Türkiye. <br />
-          Passionate about creating single page web applications and always ready to create more.{' '}
+          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} /> based on
+          Ankara-Türkiye. <br />
           <br /> Contact me
         </p>
       </div>
