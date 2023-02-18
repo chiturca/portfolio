@@ -15,20 +15,67 @@
   .socialMedia{
     padding-right: 2em;
 
-    svg {
+    a{
       color: white;
-      background: transparent;
-      margin: 20px;
-      font-size: 50px;
+      display: block;
+      position: relative;
       cursor: pointer;
+      svg {
+            color: white;
+            background: transparent;
+            margin: 20px;
+            font-size: 50px;
+          }
+          i {
+            transition: all 0.3s ease-out;
+          }
       
-      i {
-        transition: all 0.3s ease-out;
-      }
+          &:hover{
+            color: #9A73CC;
+    
+            svg{
+              color: #9A73CC;
+            }
+    
+            &:after{
+              opacity: 1;
+            }
+          }
   
-      &:hover{
-        color: #9A73CC;
-      }  
+          &:after{
+            content: '';
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            transition: all 0.3s ease-out;
+          }
+          &:first-child{
+            &::after{
+              content: 'PDF CV';
+            }
+          } 
+      
+          &:nth-child(2){
+            &::after {
+              content: 'EMAIL';
+            }
+          }
+      
+          &:nth-child(3){
+            &::after {
+              content: 'GITHUB';
+            }
+          }
+          &:nth-child(4){
+            &::after {
+              content: 'LINKEDIN';
+            }
+          }
     }
   }
   
