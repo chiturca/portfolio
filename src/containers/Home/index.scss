@@ -15,10 +15,17 @@
     text-align: center;
   }
   
-  .about h2 {
+  .about h1 {
     font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #9A73CC;
+    font-size: 60px;
+    color: #F6DBFF;
+    height: 50px;
+    padding-bottom: 1em;
+  }
+
+  .about p {
+    font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
     height: 50px;
   }
   

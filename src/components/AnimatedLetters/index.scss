@@ -6,7 +6,7 @@
     min-width: 10px;
 }
 
-@for $i from 1 through 48 {
+@for $i from 1 through 58 {
     .text-animate._#{$i} {
         animation-delay: #{$i /10}s;
     }

@@ -4,6 +4,7 @@ import './index.scss';
 
 function Home() {
   const [letterClass] = useState<string>('text-animate');
+  const salutArray = ['H', 'i', ',', ' ', 'I', ' ', 'a', 'm'];
   const nameArray = ['M', 'i', 'r', 'a', 'y', ' ', 'S', 'ö', 'n', 'm', 'e', 'z'];
   const jobArray = [
     'F',
@@ -15,11 +16,11 @@ function Home() {
     'n',
     'd',
     ' ',
-    'w',
+    'W',
     'e',
     'b',
     ' ',
-    'd',
+    'D',
     'e',
     'v',
     'e',
@@ -29,16 +30,17 @@ function Home() {
     'e',
     'r'
   ];
+  const locationArray = ['A', 'n', 'k', 'a', 'r', 'a', '-', 'T', 'ü', 'r', 'k', 'i', 'y', 'e'];
   return (
     <div className="home">
       <div className="about">
         <h1>
-          Hi, I am <br />
-          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+          <AnimatedLetters letterClass={letterClass} strArray={salutArray} idx={3} /> <br />
+          <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={11} />
         </h1>
         <p>
-          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} /> based on
-          Ankara-Türkiye. <br />
+          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={23} /> <br />
+          <AnimatedLetters letterClass={letterClass} strArray={locationArray} idx={45} />
           <br /> Contact me
         </p>
       </div>
