@@ -6,7 +6,18 @@
     min-width: 10px;
 }
 
-@for $i from 1 through 58 {
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: #F6DBFF;
+    }
+}
+
+@for $i from 1 through 48 {
     .text-animate._#{$i} {
         animation-delay: #{$i /10}s;
     }

@@ -6,13 +6,14 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 20em;
-  }
-.projects .projectTitle {
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
-  }
 
+    .projectTitle {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bolder;
+      color: #F6DBFF;
+    }
+  }
 
 .projectList {
     width: 70vw;
@@ -31,24 +32,29 @@
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-  }
-.projectItem h1 {
-    font-size: 25px;
-  }
-.projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: ease-in;
-    scale: 110%;
-    cursor: pointer;
-  }
-.projectItem .bgImage {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #F6DBFF;
+
+    h1 {
+      font-size: 25px;
+      color: #9A73CC;
+    }
+
+    .bgImage {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &:hover {
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+      transition: ease-in;
+      scale: 110%;
+      cursor: pointer;
+    }
   }
 
   @media only screen and (max-width: 1300px) {

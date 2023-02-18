@@ -13,7 +13,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2022 - February 2023"
-          iconStyle={{ background: '#e8a2eb', color: '#fff' }}
+          iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Re:Coded Bootcamp</h3>
           <h4 className="vertical-timeline-element-subtitle">Web Development</h4>
@@ -86,7 +86,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2013 - March 2014"
-          iconStyle={{ background: '#e8a2eb', color: '#fff' }}
+          iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">
             Nicolaus Copernicus University-Poland Torun
@@ -97,7 +97,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2010 - June 2016"
-          iconStyle={{ background: '#e8a2eb', color: '#fff' }}
+          iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Ankara University</h3>
           <h4 className="vertical-timeline-element-subtitle">Bachelor of Arts -Sociology</h4>

@@ -71,11 +71,17 @@
     
         &:nth-child(2){
           &::after {
-            content: 'PROJECTS';
+            content: 'ABOUTME';
           }
         }
     
         &:nth-child(3){
+          &::after {
+            content: 'PROJECTS';
+          }
+        }
+
+        &:nth-child(4){
           &::after {
             content: 'EXPERIENCE';
           }
@@ -86,19 +92,6 @@
       color:#9A73CC;
     }
   }
-}
-
-button {
-  position: relative;
-  bottom: 2em;
-  left: 2em;
-  color: white;
-  font-size: large;
-  font-weight: bold;
-  background-color: transparent;
-  border: none;
-  // text-decoration: underline;
-  // text-decoration-line: bold;
 }
 
   
