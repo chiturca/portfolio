@@ -18,7 +18,7 @@ function About() {
       <div>
         <div className="aboutme">
           <h1>
-            <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={1} />
+            <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
           </h1>
           <p>
             I am an ambitious frontend web developer looking for a role in an established IT company
@@ -35,7 +35,16 @@ function About() {
             CSS, SCSS, BootStrap, TailwindCSS
           </p>
         </div>
-        <div className="cube"></div>
+        <div className="cube">
+          <div className="cubespinner">
+            <div className="face1"></div>
+            <div className="face2"></div>
+            <div className="face3"></div>
+            <div className="face4"></div>
+            <div className="face5"></div>
+            <div className="face6"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
