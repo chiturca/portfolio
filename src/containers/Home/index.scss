@@ -16,13 +16,27 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
-
+    // @include respond-to('md') {
+    //   left: 15%;   
+    // }
+    // @include respond-to('sm') {
+    //   left: 18%;   
+    // }
+    
     h1 {
       font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 50px;
       height: 50px;
       color: #F6DBFF;
       padding-bottom: 1em;
+      // @include respond-to('md') {
+      //   font-size: 50px;
+      //   height: 50px;   
+      // }
+      // @include respond-to('sm') {
+      //   font-size: 40px;
+      //   height: 40px;   
+      // }
     }
 
     p {
@@ -31,23 +45,30 @@
       height: 50px;
       color: #9A73CC;
       left: 4%;
+      // @include respond-to('md') {
+      //   font-size: 30px;   
+      // }
     }
   }
   
   .photo {
     position: absolute;
     left: 60%;
-    top: 10%;
+    // top: 10%;
     max-height: 70%;
 
     .miray{
       position: absolute;
       left: 2em;
       border-radius: 10%;
+      // width: 20%;
       img{
         height: 39em;
         object-fit: cover;
         border-radius: 10%;
+        // @include respond-to('md') {
+        //   max-height: 30em;   
+        // }
       }
     }
     .layer1{
@@ -80,8 +101,8 @@
   }
 }
   
-  @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  }
+  // @media only screen and (max-width: 600px) {
+  //   .about h2 {
+  //     font-size: 40px;
+  //   }
+  // }
