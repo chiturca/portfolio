@@ -1,8 +1,8 @@
 $primary-color: #9A73CC;
 $secondary-color: #F6DBFF;
-$third-color: #281041;
-$forth-color: rgb(240, 229, 252); 
-$fifth-color: #b08ced;
+$third-color: #181818;
+$forth-color: #1c1c1ce6;  
+$fifth-color: rgb(240, 229, 252);
 
 @import 'animate.css';
 
@@ -15,20 +15,6 @@ $fifth-color: #b08ced;
   background-color: #1c1c1ce6;
   color: #9A73CC;
 
-  // .container {
-  //   width: 100%;
-  //   will-change: contents;
-  //   height: 90%;
-  //   min-height: 566px;
-  //   position: absolute;
-  //   opacity: 0;
-  //   top: 5%;
-  //   margin: 0 auto;
-  //   z-index: 1;
-  //   transform-style: preserve-3d;
-  //   animation: fadeIn 1s forwards;
-  //   animation-delay: 1s;
-  // }
 }
 
 body {
