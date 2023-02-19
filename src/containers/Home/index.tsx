@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../../components/AnimatedLetters';
+import MS from '../../assets/home/MiraySönmez-rbg.png';
 import './index.scss';
 
 function Home() {
@@ -61,6 +62,14 @@ function Home() {
         <p>
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={1} /> <br />
         </p>
+      </div>
+      <div className="photo animate__animated animate__backInUp">
+        <div className="layer1"></div>
+        <div className="layer2"></div>
+        <div className="layer3"></div>
+        <div className="miray">
+          <img src={MS} alt="miray" />
+        </div>
       </div>
     </div>
   );

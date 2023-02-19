@@ -31,6 +31,48 @@
     }
   }
   
+  .photo {
+    position: absolute;
+    left: 55em;
+
+    .miray{
+      position: absolute;
+      left: 2em;
+      border-radius: 10%;
+      img{
+        height: 39em;
+        object-fit: cover;
+        border-radius: 10%;
+      }
+    }
+    .layer1{
+      position: absolute;
+      top: 2em;
+      left: 3.5em;
+      background-color: #F6DBFF;
+      padding-top: 35em;
+      padding-left: 21em;
+      padding-bottom: 1em;
+      border-radius: 10%;
+    }
+    .layer2{
+      position: absolute;
+      background-color: #181818;
+      padding-bottom: 35em;
+      padding-right: 20em;
+      border-radius: 10%;
+    }
+    .layer3{
+      position: absolute;
+      top: 4em;
+      left: 1em;
+      background-color: #9A73CC;
+      padding-bottom: 35em;
+      padding-right: 10em;
+      padding-left: 12em;
+      border-radius: 10%;
+    }
+  }
 }
   
   @media only screen and (max-width: 600px) {
