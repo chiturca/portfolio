@@ -30,11 +30,15 @@ function About() {
             <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
           </h1>
           <p>
-            I am an ambitious frontend web developer looking for a role in an established IT company
-            with the opportunity to work with the latest technologies.
+            An ambitious frontend web developer looking for a full-time role in an IT company with
+            the opportunity to work with the latest technologies.
           </p>
           <br />
-          <p>I am quite curious, detail oriented and a collaborative team player.</p>
+          <p>Quite curious, detail oriented and a collaborative team player.</p>
+          <p>
+            Also, interested in sociology theories, music, camping, animals and anime and loves
+            socializing outside with family and friends
+          </p>
           <h2>
             <AnimatedLetters letterClass={letterClass} strArray={skillsArray} idx={3} />
           </h2>
@@ -47,10 +51,10 @@ function About() {
         <div className="cube">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faGithub} color="#1d1a1a" />
+              <FontAwesomeIcon icon={faReact} color="#61DBFB" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faReact} color="#61DBFB" />
+              <FontAwesomeIcon icon={faGithub} color="#1d1a1a" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faHtml5} color="#e34c26" />
