@@ -1,92 +1,92 @@
 .footer {
-    position: fixed;
-    top: 0;
-    left: 80em;
-    width: 100px;
-    height: 100%;
-    background: #181818;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    text-align: start;
-  }
-  
-  .socialMedia{
-    padding-right: 2em;
+  position: fixed;
+  top: 0;
+  left: 95%;
+  width: 100px;
+  height: 100%;
+  background: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+}
 
-    a{
-      color: white;
-      display: block;
-      position: relative;
-      cursor: pointer;
-      svg {
-            color: white;
-            background: transparent;
-            margin: 20px;
-            font-size: 50px;
-          }
-          i {
-            transition: all 0.3s ease-out;
-          }
-      
-          &:hover{
+p {
+  color: white;
+  position: relative;
+  right: 1em;
+}
+
+.socialMedia{
+  padding-right: 2em;
+
+  a{
+    color: white;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    svg {
+          color: white;
+          background: transparent;
+          margin: 20px;
+          font-size: 50px;
+        }
+        i {
+          transition: all 0.3s ease-out;
+        }
+    
+        &:hover{
+          color: #9A73CC;
+  
+          svg{
             color: #9A73CC;
-    
-            svg{
-              color: #9A73CC;
-            }
-    
-            &:after{
-              opacity: 1;
-            }
           }
   
           &:after{
-            content: '';
-            font-size: 9px;
-            letter-spacing: 2px;
-            position: absolute;
-            bottom: 0;
-            display: block;
-            width: 100%;
-            text-align: center;
-            opacity: 0;
-            transition: all 0.3s ease-out;
+            opacity: 1;
           }
-          &:first-child{
-            &::after{
-              content: 'PDF CV';
-            }
-          } 
-      
-          &:nth-child(2){
-            &::after {
-              content: 'EMAIL';
-            }
+        }
+
+        &:after{
+          content: '';
+          font-size: 9px;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          text-align: center;
+          opacity: 0;
+          transition: all 0.3s ease-out;
+        }
+        &:first-child{
+          &::after{
+            content: 'PDF CV';
           }
-      
-          &:nth-child(3){
-            &::after {
-              content: 'GITHUB';
-            }
+        } 
+    
+        &:nth-child(2){
+          &::after {
+            content: 'EMAIL';
           }
-          &:nth-child(4){
-            &::after {
-              content: 'LINKEDIN';
-            }
+        }
+    
+        &:nth-child(3){
+          &::after {
+            content: 'GITHUB';
           }
-    }
+        }
+        &:nth-child(4){
+          &::after {
+            content: 'LINKEDIN';
+          }
+        }
   }
-  
-  .footer p {
-    color: white;
-    position: relative;
-    right: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer svg {
+    font-size: 50px;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .footer svg {
-      font-size: 50px;
-    }
-  }
+}

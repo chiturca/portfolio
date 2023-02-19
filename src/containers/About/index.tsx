@@ -33,11 +33,10 @@ function About() {
             An ambitious frontend web developer looking for a full-time role in an IT company with
             the opportunity to work with the latest technologies.
           </p>
-          <br />
           <p>Quite curious, detail oriented and a collaborative team player.</p>
           <p>
             Also, interested in sociology theories, music, camping, animals and anime and loves
-            socializing outside with family and friends
+            socializing outside with family and friends.
           </p>
           <h2>
             <AnimatedLetters letterClass={letterClass} strArray={skillsArray} idx={3} />

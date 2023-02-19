@@ -18,7 +18,7 @@ function Projects() {
       <h1 className="projectTitle">
         <AnimatedLetters letterClass={letterClass} strArray={projectsArray} idx={1} />
       </h1>
-      <div className="projectList animate__animated animate__fadeInBottomRight">
+      <div className="projectList animate__animated animate__jackInTheBox">
         {ProjectList.map((project, index) => {
           return <ProjectItem id={index} key={index} name={project.name} image={project.image} />;
         })}
