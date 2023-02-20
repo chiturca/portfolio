@@ -70,7 +70,8 @@
     align-items: center;
     @include breakpoint(sm) {
       top: 25em;
-      right: 8em;
+      justify-content: start;
+      width: 100%;
     }
 
     .cubespinner {
