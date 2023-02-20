@@ -8,51 +8,51 @@
   align-items: center;
   flex-direction: column;
   text-align: start;
-    
-    .aboutme {
-        position: absolute;
-        left: 15%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
 
-      h1,h2 {
-        font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 2em;
-        font-weight: bolder;
-        color: #F6DBFF;
-      }
+  .aboutme {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
 
-      p {
-        font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        height: 50px;
-        color: #9A73CC;
-        padding-bottom: 1em;
-        min-width: fit-content;
-        animation: pulse 1s;
-
-        &:nth-of-type(1) {
-          animation-delay: 0.1s;
-        }
-
-        &:nth-of-type(2) {
-          animation-delay: 0.2s;
-        }
-
-        &:nth-of-type(3) {
-          animation-delay: 0.3s;
-        }
-        
-        &:nth-of-type(4) {
-          animation-delay: 0.4s;
-        }
-      }
+    h1,
+    h2 {
+      font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 2em;
+      font-weight: bolder;
+      color: #f6dbff;
     }
 
+    p {
+      font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1.2em;
+      height: 2.5em;
+      color: #9a73cc;
+      padding-bottom: 1em;
+      min-width: fit-content;
+      animation: pulse 1s;
+
+      &:nth-of-type(1) {
+        animation-delay: 0.1s;
+      }
+
+      &:nth-of-type(2) {
+        animation-delay: 0.2s;
+      }
+
+      &:nth-of-type(3) {
+        animation-delay: 0.3s;
+      }
+
+      &:nth-of-type(4) {
+        animation-delay: 0.4s;
+      }
+    }
+  }
 
   .cube {
     width: 50%;
@@ -65,47 +65,47 @@
     display: flex;
     align-items: center;
 
-      .cubespinner {
-        animation-name: spincube;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-duration: 12s;
-        transform-style: preserve-3d;
-        transform-origin: 100px 100px 0;
-        margin-left: calc(50% - 100px);
-  
-        div {
-          position: absolute;
-          width: 200px;
-          height: 200px;
-          border: 1px solid #ccc;
-          background: rgba(255, 255, 255, 0.4);
-          font-size: 100px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          box-shadow: 0 0 20px 0;
-        }
-  
-        .face1 {
-          transform: translateZ(100px);
-        }
-        .face2 {
-          transform: rotateY(90deg) translateZ(100px);
-        }
-        .face3 {
-          transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-        }
-        .face4 {
-          transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-        }
-        .face5 {
-          transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-        }
-        .face6 {
-          transform: rotateX(-90deg) translateZ(100px);
-        }
+    .cubespinner {
+      animation-name: spincube;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 12s;
+      transform-style: preserve-3d;
+      transform-origin: 100px 100px 0;
+      margin-left: calc(50% - 100px);
+
+      div {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.4);
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0;
       }
+
+      .face1 {
+        transform: translateZ(100px);
+      }
+      .face2 {
+        transform: rotateY(90deg) translateZ(100px);
+      }
+      .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      }
+      .face4 {
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+      }
+      .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+      }
+      .face6 {
+        transform: rotateX(-90deg) translateZ(100px);
+      }
+    }
 
     @keyframes spincube {
       from,

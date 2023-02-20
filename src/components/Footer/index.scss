@@ -1,92 +1,86 @@
+@import '../../App.scss';
+
 .footer {
   position: fixed;
-  top: 0;
   left: 95%;
   width: 100px;
   height: 100%;
-  background: #181818;
+  background: $navbg;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   text-align: start;
-}
 
-p {
-  color: white;
-  position: relative;
-  right: 1em;
-}
-
-.socialMedia{
-  padding-right: 2em;
-
-  a{
+  p {
     color: white;
-    display: block;
     position: relative;
-    cursor: pointer;
-    svg {
-          color: white;
-          background: transparent;
-          margin: 20px;
-          font-size: 50px;
-        }
-        i {
-          transition: all 0.3s ease-out;
-        }
-    
-        &:hover{
-          color: #9A73CC;
-  
-          svg{
-            color: #9A73CC;
-          }
-  
-          &:after{
-            opacity: 1;
-          }
-        }
-
-        &:after{
-          content: '';
-          font-size: 9px;
-          letter-spacing: 2px;
-          position: absolute;
-          bottom: 0;
-          display: block;
-          width: 100%;
-          text-align: center;
-          opacity: 0;
-          transition: all 0.3s ease-out;
-        }
-        &:first-child{
-          &::after{
-            content: 'PDF CV';
-          }
-        } 
-    
-        &:nth-child(2){
-          &::after {
-            content: 'EMAIL';
-          }
-        }
-    
-        &:nth-child(3){
-          &::after {
-            content: 'GITHUB';
-          }
-        }
-        &:nth-child(4){
-          &::after {
-            content: 'LINKEDIN';
-          }
-        }
+    right: 1em;
   }
-}
 
-@media only screen and (max-width: 600px) {
-  .footer svg {
-    font-size: 50px;
+  .socialMedia {
+    padding-right: 2em;
+
+    a {
+      color: white;
+      display: block;
+      position: relative;
+      cursor: pointer;
+      svg {
+        color: white;
+        background: transparent;
+        margin: 20px;
+        font-size: 50px;
+      }
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: $primary-color;
+
+        svg {
+          color: $primary-color;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+      &:first-child {
+        &::after {
+          content: 'PDF CV';
+        }
+      }
+      &:nth-child(2) {
+        &::after {
+          content: 'EMAIL';
+        }
+      }
+
+      &:nth-child(3) {
+        &::after {
+          content: 'GITHUB';
+        }
+      }
+      &:nth-child(4) {
+        &::after {
+          content: 'LINKEDIN';
+        }
+      }
+    }
   }
 }

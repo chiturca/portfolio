@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .project {
   width: 100%;
   height: calc(100vh - 100px);
@@ -6,28 +8,27 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-bottom: 5em;
   padding-top: 3em;
 
   h1 {
-    margin-top: 50px;
-    font-size: 35px;
-    color: #F6DBFF;
+    margin-top: 2em;
+    font-size: 2em;
+    color: $secondary-color;
   }
   img {
-    width: 700px;
+    width: 44em;
     border-radius: 10px;
   }
-  
+
   p {
-    font-size: 20px;
-    color:#9A73CC;
+    font-size: 1.2em;
+    color: $primary-color;
   }
-  
+
   b {
-    color: #F6DBFF;
+    color: $secondary-color;
   }
-  
+
   .link {
     position: absolute;
     left: 16%;
@@ -36,15 +37,15 @@
     flex-direction: column;
     svg {
       font-size: 60px;
-      color: #9A73CC;
+      color: $primary-color;
       cursor: pointer;
       i {
         transition: all 0.3s ease-in;
         scale: 110%;
       }
-      &:hover{
+      &:hover {
         scale: 120%;
-      }  
+      }
     }
   }
 }

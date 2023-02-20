@@ -1,42 +1,62 @@
-$primary-color: #9A73CC;
-$secondary-color: #F6DBFF;
-$third-color: #181818;
-$forth-color: #292929;
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Playfair+Display&display=swap');
+@import 'animate.css';
 
-$breakpoints: (
-  'xs': ( max-width: 767px ),
-  'sm':  ( min-width:  768px ),
-  'md': ( min-width:  992px ),
-  'lg':  ( min-width: 1200px )
-) !default;
+$ubuntu-font: 'Ubuntu', sans-serif;
 
-@mixin respond-to($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+$bg: #292929;
+$navbg: #181818;
+
+$primary-color: #9a73cc;
+$secondary-color: #f6dbff;
+
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+$header-height: 72px;
+
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+$xl: 75em;
+
+@mixin breakpoint($point) {
+  @if $point == sm {
+    @media (max-width: $sm) {
       @content;
     }
   }
-
-  @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  @if $point == md {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
+  @if $point == lg {
+    @media (min-width: $lg) {
+      @content;
+    }
+  }
+  @if $point == xl {
+    @media (min-width: $xl) {
+      @content;
+    }
   }
 }
 
-
-@import 'animate.css';
-
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   background-color: #292929;
+  font-family: $ubuntu-font;
+  color: $primary-color;
+  // height: 200vh;
 
   .App {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #9A73CC;
+    cursor: context-menu;
   }
 }
