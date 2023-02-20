@@ -63,7 +63,7 @@ function Home() {
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={1} /> <br />
         </p>
       </div>
-      <div className="photo animate__animated animate__backInUp">
+      <div className="photo animate__animated animate__jackInTheBox">
         <div className="layer1"></div>
         <div className="layer2"></div>
         <div className="layer3"></div>
