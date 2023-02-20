@@ -12,10 +12,14 @@
     position: absolute;
     top: 5%;
     text-align: center;
+    justify-content: center;
     font-size: 2em;
     font-weight: bolder;
     color: $secondary-color;
     display: flex;
+    @include breakpoint(sm) {
+      top: 14%;
+    }
   }
 
   .projectList {
@@ -27,6 +31,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     padding-top: 2em;
+    @include breakpoint(sm) {
+      grid-template-columns: 1fr;
+      top: 20%;
+    }
   }
 }
 
@@ -59,27 +67,5 @@
     transition: ease-in;
     scale: 110%;
     cursor: pointer;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .projectList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
-    width: 100%;
-  }
-  .projectItem {
-    width: 300px;
-    height: 300px;
   }
 }

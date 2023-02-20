@@ -16,6 +16,9 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+    @include breakpoint(sm) {
+      width: 100%;
+    }
 
     h1 {
       font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,6 +41,10 @@
     position: absolute;
     left: 60%;
     max-height: 70%;
+    @include breakpoint(sm) {
+      top: 30em;
+      left: 10%;
+    }
 
     .miray {
       position: absolute;

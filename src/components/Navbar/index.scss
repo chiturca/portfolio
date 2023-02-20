@@ -6,16 +6,27 @@
   width: 100px;
   height: 100%;
   background: #181818;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  @include breakpoint(sm) {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    top: 0;
+  }
 
   .logo {
     display: block;
     position: relative;
     top: 1em;
     left: 0.25em;
+    @include breakpoint(sm) {
+      display: none;
+    }
   }
 
-  .links{
+  .links {
     width: 100%;
     height: 100%;
     display: flex;
@@ -24,73 +35,80 @@
     flex-direction: column;
     position: relative;
     bottom: 4em;
-  
-    a{
+    @include breakpoint(sm) {
+      flex-direction: row;
+      bottom: 0.5em;
+    }
+
+    a {
       color: white;
       display: block;
       position: relative;
       cursor: pointer;
       svg {
-            color: white;
-            background: transparent;
-            margin: 20px;
-            font-size: 50px;
-          }
-          i {
-            transition: all 0.3s ease-out;
-          }
-      
-          &:hover{
-            color: #9A73CC;
-    
-            svg{
-              color: #9A73CC;
-            }
-    
-            &:after{
-              opacity: 1;
-            }
-          }
-  
-          &:after{
-            content: '';
-            font-size: 9px;
-            letter-spacing: 2px;
-            position: absolute;
-            bottom: 0;
-            display: block;
-            width: 100%;
-            text-align: center;
-            opacity: 0;
-            transition: all 0.3s ease-out;
-          }
-          &:first-child{
-            &::after{
-              content: 'HOME';
-            }
-          } 
-      
-          &:nth-child(2){
-            &::after {
-              content: 'ABOUTME';
-            }
-          }
-      
-          &:nth-child(3){
-            &::after {
-              content: 'PROJECTS';
-            }
-          }
-  
-          &:nth-child(4){
-            &::after {
-              content: 'EXPERIENCE';
-            }
-          }
+        color: white;
+        background: transparent;
+        margin: 20px;
+        font-size: 50px;
+        @include breakpoint(sm) {
+          font-size: 30px;
+        }
+      }
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: #9a73cc;
+
+        svg {
+          color: #9a73cc;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+      &:first-child {
+        &::after {
+          content: 'HOME';
+        }
+      }
+
+      &:nth-child(2) {
+        &::after {
+          content: 'ABOUTME';
+        }
+      }
+
+      &:nth-child(3) {
+        &::after {
+          content: 'PROJECTS';
+        }
+      }
+
+      &:nth-child(4) {
+        &::after {
+          content: 'EXPERIENCE';
+        }
+      }
     }
-    a.active{
-      svg{
-        color:#9A73CC;
+    a.active {
+      svg {
+        color: #9a73cc;
       }
     }
   }
@@ -115,8 +133,8 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .logo {
     display: none;
-  } 
+  }
 }

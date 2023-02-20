@@ -18,6 +18,10 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+    @include breakpoint(sm) {
+      width: 80%;
+      top: 20em;
+    }
 
     h1,
     h2 {
@@ -64,6 +68,10 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    @include breakpoint(sm) {
+      top: 25em;
+      right: 8em;
+    }
 
     .cubespinner {
       animation-name: spincube;

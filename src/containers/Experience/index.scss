@@ -1,6 +1,13 @@
+@import '../../App.scss';
+
 .experience {
   padding-left: 5em;
   padding-right: 5em;
+  @include breakpoint(sm) {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+  }
   h3 {
     color: #181818;
   }

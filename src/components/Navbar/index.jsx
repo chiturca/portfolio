@@ -4,11 +4,6 @@ import HomeIcon from '@mui/icons-material/Home';
 import Face3Icon from '@mui/icons-material/Face3';
 import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
-import CV from '../../assets/footer/Miray_Sönmez.pdf';
-import DownloadIcon from '@mui/icons-material/Download';
-import EmailIcon from '@mui/icons-material/Email';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './index.scss';
 
 function Navbar() {
@@ -32,20 +27,6 @@ function Navbar() {
         <NavLink exact="true" activeclassname="active" to="/experience">
           <WorkHistoryIcon />
         </NavLink>
-      </div>
-      <div className="smmedia">
-        <a href={CV} download className="cv">
-          <DownloadIcon />
-        </a>
-        <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
-          <EmailIcon />
-        </a>
-        <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
-          <GitHubIcon />
-        </a>
-        <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
-          <LinkedInIcon />
-        </a>
       </div>
     </div>
   );
