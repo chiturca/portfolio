@@ -13,6 +13,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2022 - February 2023"
+          dateClassName="date"
           iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Re:Coded Bootcamp</h3>
@@ -20,8 +21,22 @@ function Experience() {
           <p>Frontend Web Developer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="April 2022 - Present"
+          dateClassName="date"
+          iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
+          icon={<SchoolIcon />}>
+          <h3 className="vertical-timeline-element-title">GitNation Summits</h3>
+          <h4 className="vertical-timeline-element-subtitle">Web Development</h4>
+          <p>
+            Attending to summits for latest web development news. Recommended for anyone who wants
+            to learn more
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2019 - September 2020"
+          dateClassName="date"
           iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi</h3>
@@ -36,6 +51,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="September 2018 - March 2019"
+          dateClassName="date"
           iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Turkcell Global Bilgi - Full Time</h3>
@@ -47,6 +63,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2018 - July 2018"
+          dateClassName="date"
           iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">Tea Co. - Full Time</h3>
@@ -56,6 +73,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2015 - June 2016"
+          dateClassName="date"
           iconStyle={{ background: '#9A73CC', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">RS Plan-Project - Seasonal</h3>
@@ -65,6 +83,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="March 2014 - Present"
+          dateClassName="date"
           iconStyle={{ background: '#fff', color: '#9A73CC' }}
           icon={<VolunteerActivismOutlinedIcon />}>
           <h3 className="vertical-timeline-element-title">
@@ -86,6 +105,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2013 - March 2014"
+          dateClassName="date"
           iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">
@@ -97,6 +117,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2010 - June 2016"
+          dateClassName="date"
           iconStyle={{ background: '#F6DBFF', color: '#9A73CC' }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Ankara University</h3>

@@ -1,7 +1,18 @@
-.experience{
+.experience {
   padding-left: 5em;
   padding-right: 5em;
+  h3 {
+    color: #181818;
+  }
+
+  h4 {
+    color: #292929;
+  }
+
   p {
-    color: #9A73CC;
-  } 
+    color: #9a73cc;
+  }
+  .date {
+    color: white;
+  }
 }
