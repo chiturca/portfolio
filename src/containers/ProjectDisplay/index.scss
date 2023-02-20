@@ -8,9 +8,9 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 3em;
+  padding-top: 2%;
   @include breakpoint(sm) {
-    padding-top: 6em;
+    padding-top: 10%;
   }
 
   h1 {
