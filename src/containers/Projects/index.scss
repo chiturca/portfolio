@@ -18,7 +18,7 @@
     color: $secondary-color;
     display: flex;
     @include breakpoint(sm) {
-      top: 14%;
+      top: 19%;
     }
   }
 
@@ -33,7 +33,7 @@
     padding-top: 2em;
     @include breakpoint(sm) {
       grid-template-columns: 1fr;
-      top: 20%;
+      top: 25%;
     }
   }
 }
