@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Playfair+Display&display=swap');
 @import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Playfair+Display&family=Press+Start+2P&family=Tourney&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Jolly+Lodger&family=Playfair+Display&family=Press+Start+2P&family=Tourney&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Jolly+Lodger&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&family=Tourney&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Babylonica&family=Jolly+Lodger&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&family=Tourney&family=Ubuntu&display=swap');
 
 $ubuntu-font: 'Ubuntu', sans-serif;
 
@@ -52,5 +56,87 @@ body {
     display: flex;
     flex-direction: column;
     cursor: context-menu;
+  }
+}
+
+.linkedinbg {
+  font-family: monospace;
+  font-size: larger;
+  // font-family: 'Press Start 2P', cursive;
+  color: rgba(43, 171, 94, 0.2);
+  background-color: #181818;
+  padding-bottom: 2em;
+
+  p {
+    position: relative;
+    left: 1.5em;
+  }
+  .binary {
+    position: relative;
+    top: 1em;
+  }
+
+  .images {
+    bottom: 6em;
+    left: 10em;
+    /* smoke 1 */
+
+    position: absolute;
+    width: 610px;
+    height: 410px;
+
+    background: url(./assets/linkedin/smoke.png);
+    mix-blend-mode: overlay;
+    transform: rotate(115deg);
+  }
+  .tech {
+    position: absolute;
+    bottom: 22em;
+    left: 45em;
+  }
+  .t {
+    position: absolute;
+    bottom: 29em;
+    left: 31em;
+    z-index: 1000;
+    mix-blend-mode: exclusion;
+  }
+  .b {
+    position: absolute;
+    bottom: 23em;
+    left: 28em;
+    z-index: 1000;
+    transform: rotate(350deg);
+    mix-blend-mode: difference;
+  }
+  .s {
+    position: absolute;
+    bottom: 15em;
+    left: 24em;
+    z-index: 1000;
+    mix-blend-mode: difference;
+  }
+  .ben {
+    position: absolute;
+    left: 58em;
+    bottom: 9em;
+    text-align: end;
+    h4 {
+      color: white;
+      font-size: 60px;
+      // font-family: 'Press Start 2P', cursive;
+      // font-family: 'Permanent Marker', cursive;
+      font-family: 'Acme', sans-serif;
+      position: relative;
+      top: 1.3em;
+    }
+    h5 {
+      color: white;
+      font-size: 40px;
+      // font-family: 'Press Start 2P', cursive;
+      // font-family: 'Babylonica', cursive;
+      // font-family: 'Permanent Marker', cursive;
+      font-family: 'Acme', sans-serif;
+    }
   }
 }
