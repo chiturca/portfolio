@@ -20,6 +20,11 @@ $xl: 75em;
       @content;
     }
   }
+  @if $point == sm2 {
+    @media (min-width: $sm) {
+      @content;
+    }
+  }
   @if $point == md {
     @media (min-width: $md) {
       @content;
