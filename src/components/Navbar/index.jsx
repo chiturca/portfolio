@@ -6,10 +6,6 @@ import Face3Icon from '@mui/icons-material/Face3';
 import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import CV from '../../assets/footer/Miray_Sönmez.pdf';
-import DownloadIcon from '@mui/icons-material/Download';
-import EmailIcon from '@mui/icons-material/Email';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
 import './index.scss';
 
@@ -36,35 +32,47 @@ function Navbar() {
           <MenuIcon />
         </button>
       </div>
-      <div className="navs">
-        <div className="links">
-          <NavLink exact="true" activeclassname="active" to="/">
-            <HomeIcon />
-          </NavLink>
-          <NavLink exact="true" activeclassname="active" to="/aboutme">
-            <Face3Icon />
-          </NavLink>
-          <NavLink exact="true" activeclassname="active" to="/projects">
-            <CollectionsBookmarkIcon />
-          </NavLink>
-          <NavLink exact="true" activeclassname="active" to="/experience">
-            <WorkHistoryIcon />
-          </NavLink>
-        </div>
-        <div className="contact">
-          <a href={CV} download className="cv">
-            <DownloadIcon />
-          </a>
-          <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
-            <EmailIcon />
-          </a>
-          <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
-            <GitHubIcon />
-          </a>
-          <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
-            <LinkedInIcon />
-          </a>
-        </div>
+      <div className="links">
+        <NavLink exact="true" activeclassname="active" to="/">
+          <HomeIcon />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/aboutme">
+          <Face3Icon />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/projects">
+          <CollectionsBookmarkIcon />
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/experience">
+          <WorkHistoryIcon />
+        </NavLink>
+      </div>
+      <div className="smnav">
+        <h3>Navigation</h3>
+        <NavLink exact="true" activeclassname="active" to="/">
+          HOME
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/aboutme">
+          ABOUT ME
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/projects">
+          PROJECTS
+        </NavLink>
+        <NavLink exact="true" activeclassname="active" to="/experience">
+          EXPERIENCE
+        </NavLink>
+        <h3>Contact Links</h3>
+        <a href={CV} download className="cv">
+          Download CV
+        </a>
+        <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
+          Email
+        </a>
+        <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
       </div>
     </div>
   );

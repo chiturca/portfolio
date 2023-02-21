@@ -6,7 +6,7 @@
   width: 100px;
   height: 100%;
   background: #181818;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
   @include breakpoint(sm) {
     position: fixed;
     overflow: hidden;
@@ -34,9 +34,9 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    top: 2em;
+    bottom: 2em;
     @include breakpoint(sm) {
-      top: 0;
+      display: none;
     }
 
     a {
@@ -49,9 +49,6 @@
         background: transparent;
         margin: 20px;
         font-size: 50px;
-        @include breakpoint(sm) {
-          // font-size: 30px;
-        }
       }
       i {
         transition: all 0.3s ease-out;
@@ -113,97 +110,6 @@
     }
   }
 
-  .contact {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    bottom: 4em;
-    @include breakpoint(xl) {
-      display: none;
-    }
-    @include breakpoint(lg) {
-      display: none;
-    }
-    @include breakpoint(sm) {
-      bottom: 0;
-    }
-
-    a {
-      color: white;
-      display: block;
-      position: relative;
-      cursor: pointer;
-      svg {
-        color: white;
-        background: transparent;
-        margin: 20px;
-        font-size: 50px;
-        @include breakpoint(sm) {
-          // font-size: 30px;
-        }
-      }
-      i {
-        transition: all 0.3s ease-out;
-      }
-
-      &:hover {
-        color: $primary-color;
-
-        svg {
-          color: $primary-color;
-        }
-
-        &:after {
-          opacity: 1;
-        }
-      }
-
-      &:after {
-        content: '';
-        font-size: 9px;
-        letter-spacing: 2px;
-        position: absolute;
-        bottom: 0;
-        display: block;
-        width: 100%;
-        text-align: center;
-        opacity: 0;
-        transition: all 0.3s ease-out;
-      }
-
-      &:first-child {
-        &::after {
-          content: 'PDF CV';
-        }
-      }
-      &:nth-child(2) {
-        &::after {
-          content: 'EMAIL';
-        }
-      }
-
-      &:nth-child(3) {
-        &::after {
-          content: 'GITHUB';
-        }
-      }
-      &:nth-child(4) {
-        &::after {
-          content: 'LINKEDIN';
-        }
-      }
-    }
-    a.active {
-      svg {
-        color: $primary-color;
-      }
-    }
-  }
-
   .toggleButton {
     width: 100%;
     height: 80px;
@@ -245,24 +151,38 @@
 #open {
   height: 100vh;
 
-  .navs {
+  .smnav {
+    @include breakpoint(xl) {
+      display: none;
+    }
+    @include breakpoint(lg) {
+      display: none;
+    }
     @include breakpoint(sm) {
+      width: 100%;
+      height: 100%;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      a {
-        width: 100%;
-        text-align: center;
+      align-items: flex-start;
+      flex-direction: column;
+      position: relative;
+      padding-left: 2em;
+      // background-color: $bg;
+    }
+
+    a {
+      color: white;
+      display: block;
+      position: relative;
+      padding: 2px;
+      text-decoration: none;
+      cursor: pointer;
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: $primary-color;
       }
     }
-  }
-}
-
-.contact {
-  @include breakpoint(xl) {
-    display: none;
-  }
-  @include breakpoint(lg) {
-    display: none;
   }
 }

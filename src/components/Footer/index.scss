@@ -11,6 +11,7 @@
   align-items: center;
   flex-direction: column;
   text-align: start;
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
   @include breakpoint(sm) {
     position: none;
     // overflow: hidden;
