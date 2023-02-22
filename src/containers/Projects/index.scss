@@ -27,15 +27,14 @@
     top: 10%;
     width: 70vw;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding-top: 2em;
     @include breakpoint(md) {
-      grid-template-columns: 1fr;
       top: 25%;
-      justify-content: center;
-      align-items: center;
     }
   }
 }

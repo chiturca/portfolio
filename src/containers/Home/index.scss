@@ -55,6 +55,7 @@
   .photo {
     position: absolute;
     left: 55%;
+    top: 2vw;
     max-height: 70%;
     @include breakpoint(md) {
       position: relative;

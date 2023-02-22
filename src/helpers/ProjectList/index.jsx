@@ -1,5 +1,6 @@
 import refubook from '../../assets/projects/refubook.png';
 import madlibs from '../../assets/projects/madlibs.png';
+import hangman from '../../assets/projects/hangman.png';
 
 export const ProjectList = [
   {
@@ -10,6 +11,14 @@ export const ProjectList = [
       'A platform where every refugee can interact with and create content (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles',
     website: 'https://the-incredibles-refubook.netlify.app/'
+  },
+  {
+    name: 'Thunderbird - Hangman',
+    image: hangman,
+    skills: 'JavaScript, CSS, HTML',
+    summary: 'A single page platform demonstrates famous hangman game (created with a team)',
+    github: 'https://github.com/Recoded-Spark-Turkey-2022/hangman-thunderbird',
+    website: 'https://hangman-thunderbird.vercel.app/'
   },
   {
     name: 'Runtime Terror - MadLibs',
