@@ -17,7 +17,7 @@
     font-weight: bolder;
     color: $secondary-color;
     display: flex;
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
       top: 19%;
     }
   }
@@ -31,7 +31,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     padding-top: 2em;
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
       grid-template-columns: 1fr;
       top: 25%;
     }

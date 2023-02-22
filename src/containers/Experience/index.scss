@@ -3,21 +3,21 @@
 .experience {
   padding-left: 5em;
   padding-right: 5em;
-  @include breakpoint(sm) {
+  @include breakpoint(md) {
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 4em;
   }
   h3 {
-    color: #181818;
+    color: $navbg;
   }
 
   h4 {
-    color: #292929;
+    color: $bg;
   }
 
   p {
-    color: #9a73cc;
+    color: $primary-color;
   }
   .date {
     color: white;

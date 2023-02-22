@@ -15,28 +15,8 @@ $lg: 64em;
 $xl: 75em;
 
 @mixin breakpoint($point) {
-  @if $point == sm {
-    @media (max-width: $sm) {
-      @content;
-    }
-  }
-  @if $point == sm2 {
-    @media (min-width: $sm) {
-      @content;
-    }
-  }
   @if $point == md {
-    @media (min-width: $md) {
-      @content;
-    }
-  }
-  @if $point == lg {
-    @media (min-width: $lg) {
-      @content;
-    }
-  }
-  @if $point == xl {
-    @media (min-width: $xl) {
+    @media (max-width: $md) {
       @content;
     }
   }
