@@ -2,15 +2,16 @@
 
 .footer {
   position: fixed;
-  left: 95%;
-  width: 100px;
+  left: 93%;
+  width: 7vw;
   height: 100%;
+  z-index: 1000;
   background: $navbg;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  text-align: start;
+  text-align: center;
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
   @include breakpoint(md) {
     display: none;
@@ -19,11 +20,11 @@
   p {
     color: white;
     position: relative;
-    right: 1em;
+    // right: 1vw;
   }
 
   .socialMedia {
-    padding-right: 2em;
+    // padding-right: 2em;
 
     a {
       color: white;

@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  width: 100px;
+  width: 8vw;
   height: 100%;
   background: $navbg;
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
@@ -20,8 +20,8 @@
   .logo {
     display: block;
     position: relative;
-    top: 2vw;
-    left: 0.5vw;
+    top: 1vw;
+    left: 0.25rem;
     @include breakpoint(md) {
       display: none;
     }
