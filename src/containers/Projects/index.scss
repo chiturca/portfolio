@@ -31,6 +31,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     padding-top: 2em;
+    justify-content: center;
     @include breakpoint(md) {
       grid-template-columns: 1fr;
       top: 25%;
