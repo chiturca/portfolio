@@ -117,8 +117,8 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    @include breakpoint(md) {
-      display: flex;
+    @include breakpoint(lg) {
+      display: none;
     }
 
     button {

@@ -20,6 +20,11 @@ $xl: 75em;
       @content;
     }
   }
+  @if $point == lg {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
 }
 
 html,
