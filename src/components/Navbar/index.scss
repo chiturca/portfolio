@@ -3,9 +3,10 @@
 .navbar {
   position: fixed;
   top: 0;
+  z-index: 1000;
   width: 100px;
   height: 100%;
-  background: #181818;
+  background: $navbg;
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
   @include breakpoint(md) {
     position: fixed;
@@ -19,8 +20,8 @@
   .logo {
     display: block;
     position: relative;
-    top: 1em;
-    left: 0.25em;
+    top: 2vw;
+    left: 0.5vw;
     @include breakpoint(md) {
       display: none;
     }
@@ -34,7 +35,7 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 2em;
+    bottom: 5vw;
     @include breakpoint(md) {
       display: none;
     }
