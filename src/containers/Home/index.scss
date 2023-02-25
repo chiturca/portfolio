@@ -59,47 +59,68 @@
     max-height: 70%;
     @include breakpoint(md) {
       position: relative;
-      width: 70%;
-      top: 6em;
+      width: 50%;
+      top: 30vw;
       left: 0;
     }
 
     .miray {
       position: absolute;
-      left: 2.2em;
+      left: 2vw;
       border-radius: 10%;
+      @include breakpoint(md) {
+        left: 3vw;
+      }
       img {
-        height: 37em;
+        height: 42vw;
         object-fit: cover;
         border-radius: 10%;
+        @include breakpoint(md) {
+          height: 70vw;
+        }
       }
     }
     .layer1 {
       position: absolute;
-      top: 2em;
-      left: 3.5em;
+      top: 2vw;
+      left: 4vw;
       background-color: $secondary-color;
-      margin-top: 1em;
-      padding-top: 33em;
-      padding-left: 21em;
+      margin-top: 1vw;
+      padding-top: 35vw;
+      padding-left: 25vw;
       border-radius: 10%;
+      @include breakpoint(md) {
+        margin-top: 2vw;
+        padding-top: 55vw;
+        padding-left: 43vw;
+      }
     }
     .layer2 {
       position: absolute;
       background-color: $navbg;
-      margin-top: 1em;
-      padding-bottom: 33em;
-      padding-right: 21em;
+      margin-top: 1vw;
+      padding-bottom: 36vw;
+      padding-right: 25vw;
       border-radius: 10%;
+      @include breakpoint(md) {
+        margin-top: 1vw;
+        padding-bottom: 56vw;
+        padding-right: 40vw;
+      }
     }
     .layer3 {
       position: absolute;
-      top: 4em;
-      left: 1em;
+      top: 4vw;
+      left: 1vw;
       background-color: $primary-color;
-      padding-bottom: 33em;
-      padding-left: 22em;
+      padding-bottom: 38vw;
+      padding-left: 26vw;
       border-radius: 10%;
+      @include breakpoint(md) {
+        left: 2vw;
+        padding-bottom: 66vw;
+        padding-left: 42vw;
+      }
     }
   }
 }
