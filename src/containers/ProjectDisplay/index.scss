@@ -10,15 +10,17 @@
   flex-direction: column;
   padding-top: 2%;
   @include breakpoint(md) {
-    padding-top: 20%;
+    padding-top: 15%;
   }
 
   h1 {
-    margin-top: 2em;
-    font-size: 2em;
+    margin-top: 2vw;
+    font-size: 3vw;
     color: $secondary-color;
     @include breakpoint(md) {
       width: 100%;
+      margin-top: 1vw;
+      font-size: 4vw;
     }
   }
   img {
@@ -30,10 +32,11 @@
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1.5vw;
     color: $primary-color;
     @include breakpoint(md) {
       width: 100%;
+      font-size: 3vw;
     }
   }
 
@@ -47,6 +50,13 @@
     bottom: 40%;
     display: flex;
     flex-direction: column;
+    &:hover {
+      color: $primary-color;
+
+      &:after {
+        opacity: 1;
+      }
+    }
     @include breakpoint(md) {
       position: relative;
       flex-direction: row;
@@ -55,9 +65,9 @@
       bottom: 0;
     }
     svg {
-      font-size: 300%;
+      font-size: 4vw;
       color: $primary-color;
-      padding: 0.2em;
+      padding: 0.7vw;
       cursor: pointer;
       i {
         transition: all 0.3s ease-in;
@@ -65,9 +75,10 @@
       }
       &:hover {
         scale: 120%;
+        color: $secondary-color;
       }
       @include breakpoint(md) {
-        font-size: 3em;
+        font-size: 7vw;
       }
     }
   }
