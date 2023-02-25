@@ -5,8 +5,9 @@ import { ProjectList } from '../../helpers/ProjectList';
 import './index.scss';
 
 function Projects() {
-  const [letterClass, setLetterClass] = useState('text-animate');
+  const [letterClass, setLetterClass] = useState<string>('text-animate');
   const projectsArray = ['P', 'r', 'o', 'j', 'e', 'c', 't', 's'];
+
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover');
