@@ -19,11 +19,11 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expand ? 'open' : 'close'}>
-      <div className="logo">
-        <Link to="/">
+      <Link to="/">
+        <div className="logo">
           <img src={Logo} alt="logo" />
-        </Link>
-      </div>
+        </div>
+      </Link>
       <div className="toggleButton">
         <button
           onClick={() => {
