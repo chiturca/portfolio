@@ -1,8 +1,17 @@
 import refubook from '../../assets/projects/refubook.png';
 import madlibs from '../../assets/projects/madlibs.png';
 import hangman from '../../assets/projects/hangman.png';
+import portfolio from '../../assets/projects/portfolio.png';
 
 export const ProjectList = [
+  {
+    name: 'Miray Sönmez - Portfolio',
+    image: portfolio,
+    skills: 'React, Typescript, SCSS',
+    summary: 'Portfolio website',
+    github: 'https://github.com/chiturca/portfolio',
+    website: 'https://miraysonmez.vercel.app/'
+  },
   {
     name: 'The Incredibles - Refubook',
     image: refubook,
