@@ -17,7 +17,9 @@ function Experience() {
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Re:Coded Bootcamp</h3>
           <h4 className="vertical-timeline-element-subtitle">Web Development</h4>
-          <p>Frontend Web Developer</p>
+          <p>
+            Frontend Web Developer <br />
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
