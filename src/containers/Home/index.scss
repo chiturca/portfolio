@@ -90,8 +90,8 @@
       padding-left: 25vw;
       border-radius: 10%;
       @include breakpoint(md) {
-        margin-top: 2vw;
-        padding-top: 55vw;
+        margin-top: 1vw;
+        padding-top: 59vw;
         padding-left: 43vw;
       }
     }
@@ -104,7 +104,7 @@
       border-radius: 10%;
       @include breakpoint(md) {
         margin-top: 1vw;
-        padding-bottom: 56vw;
+        padding-bottom: 59vw;
         padding-right: 40vw;
       }
     }
