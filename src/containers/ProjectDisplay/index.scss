@@ -64,21 +64,55 @@
       left: 0;
       bottom: 0;
     }
-    svg {
-      font-size: 4vw;
-      color: $primary-color;
-      padding: 0.7vw;
-      cursor: pointer;
-      i {
-        transition: all 0.3s ease-in;
-        scale: 110%;
-      }
+    a {
+      text-decoration: none;
       &:hover {
-        scale: 120%;
         color: $secondary-color;
+        i {
+          transition: all 0.3s ease-out;
+          scale: 110%;
+        }
+
+        &:after {
+          opacity: 1;
+        }
       }
-      @include breakpoint(md) {
-        font-size: 7vw;
+      svg {
+        font-size: 4vw;
+        color: $primary-color;
+        padding: 0.7vw;
+        cursor: pointer;
+        &:hover {
+          scale: 120%;
+          color: $secondary-color;
+        }
+        @include breakpoint(md) {
+          font-size: 7vw;
+        }
+      }
+      &:after {
+        content: '';
+        font-size: 8px;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &::after {
+          content: 'GITHUB';
+        }
+      }
+
+      &:nth-child(2) {
+        &::after {
+          content: 'WEBSITE';
+        }
       }
     }
   }
