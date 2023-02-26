@@ -5,14 +5,6 @@ import portfolio from '../../assets/projects/portfolio.png';
 
 export const ProjectList = [
   {
-    name: 'Miray Sönmez - Portfolio',
-    image: portfolio,
-    skills: 'React, Typescript, SCSS',
-    summary: 'Portfolio website',
-    github: 'https://github.com/chiturca/portfolio',
-    website: 'https://miraysonmez.vercel.app/'
-  },
-  {
     name: 'The Incredibles - Refubook',
     image: refubook,
     skills: 'React.js, Redux, Firebase, TailwindCSS',
@@ -20,6 +12,14 @@ export const ProjectList = [
       'A platform where every refugee can interact with and create content (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles',
     website: 'https://the-incredibles-refubook.netlify.app/'
+  },
+  {
+    name: 'Miray Sönmez - Portfolio',
+    image: portfolio,
+    skills: 'React, Typescript, SCSS',
+    summary: 'Portfolio website',
+    github: 'https://github.com/chiturca/portfolio',
+    website: 'https://miraysonmez.vercel.app/'
   },
   {
     name: 'Thunderbird - Hangman',
