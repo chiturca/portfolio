@@ -10,6 +10,16 @@ function Experience() {
     <div className="experience">
       <VerticalTimeline lineColor="#fff">
         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="March 2023 - Present"
+          dateClassName="date"
+          iconStyle={{ background: '#9A73CC', color: '#fff' }}
+          icon={<WorkIcon />}>
+          <h3 className="vertical-timeline-element-title">Royal Apps</h3>
+          <h4 className="vertical-timeline-element-subtitle">Frontend Web Developer - Full Time</h4>
+          <p>Creating embedded apps for B2B Shopify systems.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="September 2022 - February 2023"
           dateClassName="date"
