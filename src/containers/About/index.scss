@@ -18,7 +18,7 @@
     vertical-align: middle;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: flex-start;
     max-height: 90%;
     @include breakpoint(md) {
@@ -91,7 +91,7 @@
     align-items: center;
     @include breakpoint(md) {
       top: 42%;
-      justify-content: start;
+      justify-content: flex-start;
       width: 100%;
     }
 
