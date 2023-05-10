@@ -13,7 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 export const ExperienceList = [
   {
     className: 'vertical-timeline-element--work',
-    date: 'March 2023 - Present',
+    date: 'March 2023 - April 2023',
     dateClassName: 'date',
     background: '#9A73CC',
     color: '#fff',
