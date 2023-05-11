@@ -12,6 +12,18 @@ import SchoolIcon from '@mui/icons-material/School';
 
 export const ExperienceList = [
   {
+    className: 'vertical-timeline-element--education',
+    date: 'May 2023 - Present',
+    dateClassName: 'date',
+    background: '#F6DBFF',
+    color: '#9A73CC',
+    icon: <SchoolIcon />,
+    h3: 'Panteon Academy',
+    h4: 'Game Development',
+    p: 'Unity, C#',
+    img: ''
+  },
+  {
     className: 'vertical-timeline-element--work',
     date: 'March 2023 - April 2023',
     dateClassName: 'date',
@@ -104,7 +116,7 @@ export const ExperienceList = [
     icon: <VolunteerActivismOutlinedIcon />,
     h3: 'Ankara Youth Philharmonic Orchestra/Polyphonic Choir - AGFO',
     h4: 'Vice Coordinator- Polyphonic choir member- Volunteer',
-    p: 'Definition of volunteering:<br /> We determine little village primary schools in need around Turkey. According to their requirement list -these may include clothes, books for library, stationery material or instruments for music classes- we contact with people who can help their needs. After sufficient amount of items collected, we send them or directly go to the school and give them the suplies',
+    p: 'Definition of volunteering: We determine little village primary schools in need around Turkey. According to their requirement list -these may include clothes, books for library, stationery material or instruments for music classes- we contact with people who can help their needs. After sufficient amount of items collected, we send them or directly go to the school and give them the suplies',
     img: '<img src={olympos} height="50vw" />'
   },
   {
