@@ -59,7 +59,7 @@ function Experience() {
           vertical: 'center',
           horizontal: 'center'
         }}>
-        <img src={imageSrc} style={{ width: '500px', height: '400px' }} />
+        <img src={imageSrc} style={{ width: '700px', height: '550px' }} />
       </Popover>
     </div>
   );
