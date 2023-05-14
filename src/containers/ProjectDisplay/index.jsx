@@ -8,18 +8,23 @@ import './index.scss';
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+
   return (
     <div className="project">
       <div className="holder">
         <h1>{project.name}</h1>
         <img src={project.image} alt={project.name} />
         <div className="link">
-          <a href={project.github} target="_blank" rel="noreferrer">
-            <GitHubIcon />
-          </a>
-          <a href={project.website} target="_blank" rel="noreferrer">
-            <HttpIcon />
-          </a>
+          {project.github !== '' && (
+            <a href={project.github} target="_blank" rel="noreferrer">
+              <GitHubIcon />
+            </a>
+          )}
+          {project.website !== '' && (
+            <a href={project.website} target="_blank" rel="noreferrer">
+              <HttpIcon />
+            </a>
+          )}
         </div>
         <p>
           <b>Skills:</b> {project.skills}{' '}
