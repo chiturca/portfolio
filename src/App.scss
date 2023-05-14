@@ -9,10 +9,7 @@ $navbg: #181818;
 $primary-color: #9a73cc;
 $secondary-color: #f6dbff;
 
-$sm: 37.5em;
-$md: 48em;
-$lg: 64em;
-$xl: 75em;
+$md: 50em;
 
 @mixin breakpoint($point) {
   @if $point == md {
@@ -31,7 +28,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #292929;
+  background-color: $bg;
   font-family: $ubuntu-font;
   color: $primary-color;
   // height: 200vh;
