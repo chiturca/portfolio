@@ -19,6 +19,8 @@ function Experience() {
               <h3 className="vertical-timeline-element-title">{project.h3}</h3>
               <h4 className="vertical-timeline-element-subtitle">{project.h4}</h4>
               <p>{project.p}</p>
+              <img src={project.img} height="50vw" /> <img src={project.img2} height="50vw" />{' '}
+              <img src={project.img3} height="50vw" />
             </VerticalTimelineElement>
           );
         })}
