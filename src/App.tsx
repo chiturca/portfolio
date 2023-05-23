@@ -7,19 +7,22 @@ import ProjectDisplay from './containers/ProjectDisplay';
 import Experience from './containers/Experience';
 import Footer from './components/Footer';
 import './App.scss';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutme" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:id" element={<ProjectDisplay />} />
-        <Route path="/experience" element={<Experience />} />
-      </Routes>
-      <Footer />
+      <Layout>
+        <Navbar handleToggleDarkMode={undefined} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDisplay />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+        <Footer />
+      </Layout>
     </div>
   );
 }

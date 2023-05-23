@@ -6,7 +6,7 @@
   z-index: 1000;
   width: 100px;
   height: 100%;
-  background: $navbg;
+  background: var(--navbg);
   box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.5);
   @include breakpoint(md) {
     position: fixed;
@@ -56,10 +56,10 @@
       }
 
       &:hover {
-        color: $primary-color;
+        color: var(--primary-color);
 
         svg {
-          color: $primary-color;
+          color: var(--primary-color);
         }
 
         &:after {
@@ -106,7 +106,7 @@
     }
     a.active {
       svg {
-        color: $primary-color;
+        color: var(--primary-color);
       }
     }
   }
@@ -169,7 +169,7 @@
       }
 
       &:hover {
-        color: $primary-color;
+        color: var(--primary-color);
       }
     }
   }

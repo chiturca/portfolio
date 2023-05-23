@@ -33,7 +33,7 @@
       font-weight: bolder;
       font-size: 2.5vw;
       padding-top: 2vw;
-      color: $secondary-color;
+      color: var(--secondary-color);
       @include breakpoint(md) {
         font-size: 5vw;
         height: 2vw;
@@ -47,7 +47,7 @@
       height: 2vw;
       font-size: 1.5vw;
       padding-bottom: 1vw;
-      color: $primary-color;
+      color: var(--primary-color);
       min-width: fit-content;
       animation: pulse 1s;
       @include breakpoint(md) {

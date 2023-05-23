@@ -16,7 +16,7 @@
     justify-content: center;
     font-size: 2.5vw;
     font-weight: bolder;
-    color: $secondary-color;
+    color: var(--secondary-color);
     @include breakpoint(md) {
       top: 19%;
       font-size: 6vw;
@@ -49,11 +49,11 @@
   margin: 2.5em;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  background: $secondary-color;
+  background-color: var(--secondary-color);
 
   h1 {
     font-size: 1.6em;
-    color: $primary-color;
+    color: var(--primary-color);
   }
 
   .bgImage {

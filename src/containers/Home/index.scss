@@ -33,7 +33,7 @@
       font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 4vw;
       height: 1em;
-      color: $secondary-color;
+      color: var(--secondary-color);
       padding-bottom: 1em;
       @include breakpoint(md) {
         font-size: 7vw;
@@ -44,7 +44,7 @@
       font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 3vw;
       height: 3em;
-      color: $primary-color;
+      color: var(--primary-color);
       left: 4%;
       @include breakpoint(md) {
         font-size: 5vw;
@@ -84,7 +84,7 @@
       position: absolute;
       top: 2vw;
       left: 4vw;
-      background-color: $secondary-color;
+      background-color: var(--secondary-color);
       margin-top: 1vw;
       padding-top: 35vw;
       padding-left: 25vw;
@@ -97,7 +97,7 @@
     }
     .layer2 {
       position: absolute;
-      background-color: $navbg;
+      background-color: var(--navbg);
       margin-top: 1vw;
       padding-bottom: 36vw;
       padding-right: 25vw;
@@ -112,7 +112,7 @@
       position: absolute;
       top: 4vw;
       left: 1vw;
-      background-color: $primary-color;
+      background-color: var(--primary-color);
       padding-bottom: 38vw;
       padding-left: 26vw;
       border-radius: 10%;

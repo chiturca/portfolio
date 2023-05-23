@@ -9,15 +9,15 @@
     padding-top: 4em;
   }
   h3 {
-    color: $navbg;
+    color: var(--navbg);
   }
 
   h4 {
-    color: $bg;
+    color: var(--bg);
   }
 
   p {
-    color: $primary-color;
+    color: var(--primary-color);
   }
   .date {
     color: white;

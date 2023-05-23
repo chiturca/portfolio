@@ -16,7 +16,7 @@
   h1 {
     margin-top: 2vw;
     font-size: 3vw;
-    color: $secondary-color;
+    color: var(--secondary-color);
     @include breakpoint(md) {
       width: 100%;
       margin-top: 1vw;
@@ -33,7 +33,7 @@
 
   p {
     font-size: 1.5vw;
-    color: $primary-color;
+    color: var(--primary-color);
     @include breakpoint(md) {
       width: 100%;
       font-size: 3vw;
@@ -41,7 +41,7 @@
   }
 
   b {
-    color: $secondary-color;
+    color: var(--secondary-color);
   }
 
   .link {
@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     &:hover {
-      color: $primary-color;
+      color: var(--primary-color);
 
       &:after {
         opacity: 1;
@@ -67,7 +67,7 @@
     a {
       text-decoration: none;
       &:hover {
-        color: $secondary-color;
+        color: var(--secondary-color);
         i {
           transition: all 0.3s ease-out;
           scale: 110%;
@@ -79,12 +79,12 @@
       }
       svg {
         font-size: 4vw;
-        color: $primary-color;
+        color: var(--primary-color);
         padding: 0.7vw;
         cursor: pointer;
         &:hover {
           scale: 120%;
-          color: $secondary-color;
+          color: var(--secondary-color);
         }
         @include breakpoint(md) {
           font-size: 7vw;
