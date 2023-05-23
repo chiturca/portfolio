@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Navbar handleToggleDarkMode={undefined} />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<About />} />

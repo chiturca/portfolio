@@ -9,7 +9,7 @@ import CV from '../../assets/footer/Miray_Sönmez.pdf';
 import MenuIcon from '@mui/icons-material/Menu';
 import './index.scss';
 
-function Navbar({ handleToggleDarkMode }) {
+function Navbar() {
   const [expand, setExpand] = useState(false);
   const location = useLocation();
 
@@ -19,7 +19,7 @@ function Navbar({ handleToggleDarkMode }) {
 
   return (
     <div className="navbar" id={expand ? 'open' : 'close'}>
-      <button onClick={handleToggleDarkMode}>Toggle Dark Mode</button>
+      {/* <button onClick={handleToggleDarkMode}>Toggle Dark Mode</button> */}
       <Link to="/">
         <div className="logo">
           <img src={Logo} alt="logo" />
