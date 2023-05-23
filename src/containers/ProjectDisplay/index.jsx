@@ -13,7 +13,8 @@ function ProjectDisplay() {
     <div className="project">
       <div className="holder">
         <h1>{project.name}</h1>
-        <img src={project.image} alt={project.name} />
+        {/* <img src={project.image} alt={project.name} /> */}
+        <video src={project.video} autoPlay loop muted />
         <div className="link">
           {project.github !== '' && (
             <a href={project.github} target="_blank" rel="noreferrer">
