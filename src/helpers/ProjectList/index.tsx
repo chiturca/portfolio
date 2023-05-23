@@ -2,11 +2,16 @@ import refubook from '../../assets/projects/refubook.png';
 import madlibs from '../../assets/projects/madlibs.png';
 import hangman from '../../assets/projects/hangman.png';
 import portfolio from '../../assets/projects/portfolio.png';
+import vRefubook from '../../assets/projects/refubook.mp4';
+import vMadlibs from '../../assets/projects/madlibs.mp4';
+import vHangman from '../../assets/projects/hangman.mp4';
+import vPortfolio from '../../assets/projects/portfolio.mp4';
 
 export const ProjectList = [
   {
     name: 'The Incredibles - Refubook',
     image: refubook,
+    video: vRefubook,
     skills: 'React.js, Redux, Firebase, TailwindCSS',
     summary:
       'A platform where every refugee can interact with and create content (created with a team)',
@@ -16,6 +21,7 @@ export const ProjectList = [
   {
     name: 'Miray Sönmez - Portfolio',
     image: portfolio,
+    video: vPortfolio,
     skills: 'React, Typescript, SCSS',
     summary: 'Portfolio website',
     github: 'https://github.com/chiturca/portfolio',
@@ -24,6 +30,7 @@ export const ProjectList = [
   {
     name: 'Thunderbird - Hangman',
     image: hangman,
+    video: vHangman,
     skills: 'JavaScript, CSS, HTML',
     summary: 'A single page platform demonstrates famous hangman game (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/hangman-thunderbird',
@@ -32,6 +39,7 @@ export const ProjectList = [
   {
     name: 'Runtime Terror - MadLibs',
     image: madlibs,
+    video: vMadlibs,
     skills: 'JavaScript, CSS, HTML',
     summary: 'A single page web game platform based on filling the blanks (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/mad-libs-runtime-terror',
