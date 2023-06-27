@@ -6,8 +6,20 @@ import vRefubook from '../../assets/projects/refubook.mp4';
 import vMadlibs from '../../assets/projects/madlibs.mp4';
 import vHangman from '../../assets/projects/hangman.mp4';
 import vPortfolio from '../../assets/projects/portfolio.mp4';
+import tappyFish from '../../assets/projects/TappyFish.png';
+import vTappyFish from '../../assets/projects/TappyFish.mp4';
 
 export const ProjectList = [
+  {
+    name: 'Tappy Fish- 2D',
+    image: tappyFish,
+    video: vTappyFish,
+    skills: 'Unity, C#',
+    summary: '2D game where player get point via overcoming obstacles',
+    github: 'https://github.com/chiturca/TappyFish',
+    website: '',
+    boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
+  },
   {
     name: 'The Incredibles - Refubook',
     image: refubook,
@@ -17,6 +29,7 @@ export const ProjectList = [
       'A platform where every refugee can interact with and create content (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles',
     website: 'https://the-incredibles-refubook.netlify.app/'
+    // boxShadow: '0px 3px 15px rgba(255, 254, 254, 0.495)'
   },
   {
     name: 'Miray Sönmez - Portfolio',
