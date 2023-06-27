@@ -30,21 +30,20 @@ function About() {
             <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
           </h1>
           <p>
-            An ambitious frontend web developer looking for a full-time role in an IT company with
-            the opportunity to work with the latest technologies.
+            An ambitious developer specialized in frontend react development and unity game
+            development looking for a full-time role in an IT company with the opportunity to work
+            with the latest technologies.
           </p>
           <p>Quite curious, detail oriented and a collaborative team player.</p>
-          <p>
-            Also, interested in sociology theories, music, camping, animals and anime and loves
-            socializing outside with family and friends.
-          </p>
+          <p>Also, interested in sociology theories, music, camping, animals and anime.</p>
           <h2>
             <AnimatedLetters letterClass={letterClass} strArray={skillsArray} idx={3} />
           </h2>
           <p>
             Javascript, Typescript, ReactJS, <br />
             Redux, Firebase, HTML, <br />
-            CSS, SCSS, BootStrap, TailwindCSS
+            CSS, SCSS, BootStrap, TailwindCSS, <br />
+            Unity, C#
           </p>
         </div>
         <div className="cube">
