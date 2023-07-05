@@ -8,8 +8,21 @@ import vHangman from '../../assets/projects/hangman.mp4';
 import vPortfolio from '../../assets/projects/portfolio.mp4';
 import tappyFish from '../../assets/projects/TappyFish.png';
 import vTappyFish from '../../assets/projects/TappyFish.mp4';
+import Runner from '../../assets/projects/3DRunner.png';
+import v3DRunner from '../../assets/projects/3DRunner.mp4';
 
 export const ProjectList = [
+  {
+    name: '3D Runner',
+    image: Runner,
+    video: v3DRunner,
+    skills: 'Unity, C#',
+    summary:
+      '3D game where player runs against other AI runners and obstacles and get points to reach to success',
+    github: 'https://github.com/chiturca/3DRunner',
+    website: '',
+    boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
+  },
   {
     name: 'Tappy Fish- 2D',
     image: tappyFish,
