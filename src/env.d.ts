@@ -14,6 +14,11 @@ declare module '*.mp4' {
   export const ReactComponent: unknown;
   export default src;
 }
+declare module '*.gif' {
+  const src: string;
+  export const ReactComponent: unknown;
+  export default src;
+}
 declare module '*.png' {
   const src: string;
   export default src;

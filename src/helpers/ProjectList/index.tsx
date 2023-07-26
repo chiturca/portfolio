@@ -10,8 +10,20 @@ import tappyFish from '../../assets/projects/TappyFish.png';
 import vTappyFish from '../../assets/projects/TappyFish.mp4';
 import Runner from '../../assets/projects/3DRunner.png';
 import v3DRunner from '../../assets/projects/3DRunner.mp4';
+import invaders from '../../assets/projects/InvadersFromSpace.png';
+import vInvaders from '../../assets/projects/InvadersFromSpace.mp4';
 
 export const ProjectList = [
+  {
+    name: 'Invaders  From Space',
+    image: invaders,
+    video: vInvaders,
+    skills: 'Unity, C#',
+    summary: 'Nostalgic 2D game where player kills aliens and get points with thier spaceship',
+    github: 'https://github.com/chiturca/InvadersFromSpace',
+    website: '',
+    boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
+  },
   {
     name: '3D Runner',
     image: Runner,
