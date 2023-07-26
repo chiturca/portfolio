@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function ProjectItem({ image, name, id, boxShadow }) {
@@ -10,7 +9,7 @@ function ProjectItem({ image, name, id, boxShadow }) {
       onClick={() => {
         navigate('/projects/' + id);
       }}>
-      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" loading="lazy" />
       <div className="projectdetails">
         <h1>{name}</h1>
       </div>
