@@ -34,8 +34,14 @@ function Experience() {
               dateClassName={project.dateClassName}
               iconStyle={{ background: project.background, color: project.color }}
               icon={project.icon}>
-              <h3 className="vertical-timeline-element-title">{project.h3}</h3>
-              <h4 className="vertical-timeline-element-subtitle">{project.h4}</h4>
+              <h3
+                className="vertical-timeline-element-title"
+                style={{ display: 'flex', alignItems: 'center' }}>
+                <img src={project.logo} height="50vw" onClick={handleClick} /> {project.h3}
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle" style={{ color: 'gray' }}>
+                {project.h4}
+              </h4>
               <p>{project.p}</p>
               <div>
                 <img src={project.img} height="50vw" onClick={handleClick} />{' '}

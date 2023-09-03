@@ -9,11 +9,22 @@ import eng from '../../assets/certificates/AUEnglish_2010-2011.png';
 import WorkIcon from '@mui/icons-material/Work';
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
 import SchoolIcon from '@mui/icons-material/School';
+import DIG from '../../assets/logos/DİG.jpg';
+import AU from '../../assets/logos/AÜ.png';
+import UMK from '../../assets/logos/UMK.png';
+import AGFO from '../../assets/logos/AGFO.jpg';
+import RS from '../../assets/logos/RS.jpg';
+import TEACO from '../../assets/logos/TEACO.jpg';
+import TGB from '../../assets/logos/TGB.jpg';
+import GN from '../../assets/logos/GN.png';
+import RC from '../../assets/logos/RC.png';
+import RA from '../../assets/logos/RA.jpg';
+import P from '../../assets/logos/P.png';
 
 export const ExperienceList = [
   {
     className: 'vertical-timeline-element--education',
-    date: 'May 2023 - Present',
+    date: 'May 2023 - July 2023',
     dateClassName: 'date',
     background: '#F6DBFF',
     color: '#9A73CC',
@@ -21,6 +32,7 @@ export const ExperienceList = [
     h3: 'Panteon Academy',
     h4: 'Game Development',
     p: 'Unity, C#',
+    logo: P,
     img: ''
   },
   {
@@ -33,6 +45,7 @@ export const ExperienceList = [
     h3: 'Royal Apps',
     h4: 'Frontend Web Developer - Full Time',
     p: 'Creating embedded apps for B2B Shopify systems.',
+    logo: RA,
     img: ''
   },
   {
@@ -45,6 +58,7 @@ export const ExperienceList = [
     h3: 'Re:Coded Bootcamp',
     h4: 'Web Development',
     p: 'Frontend Web Developer',
+    logo: RC,
     img: recoded
   },
   {
@@ -57,6 +71,7 @@ export const ExperienceList = [
     h3: 'GitNation Summits',
     h4: 'Web Development',
     p: 'Attending to summits for latest web development news. Recommended for anyone who wants to learn more',
+    logo: GN,
     img: gamedev,
     img2: reactberlin,
     img3: graphql
@@ -71,6 +86,7 @@ export const ExperienceList = [
     h3: 'Turkcell Global Bilgi',
     h4: 'Customer Support Representative - Full Time',
     p: 'Handling customer feedbacks about their trip procedure from the time they reserved their tickets to the end of their travel process with Turkish Airlines.',
+    logo: TGB,
     img: ''
   },
   {
@@ -83,6 +99,7 @@ export const ExperienceList = [
     h3: 'Turkcell Global Bilgi - Full Time',
     h4: 'Inbound Customer Service Representative',
     p: 'Handling inbound calls on behalf of Turkish Airlines',
+    logo: TGB,
     img: global
   },
   {
@@ -95,6 +112,7 @@ export const ExperienceList = [
     h3: 'Tea Co. - Full Time',
     h4: 'Barista',
     p: 'Presenting international tea brands',
+    logo: TEACO,
     img: ''
   },
   {
@@ -107,6 +125,7 @@ export const ExperienceList = [
     h3: 'RS Plan-Project - Seasonal',
     h4: 'Project Manager',
     p: 'Erasmus+ Project Management',
+    logo: RS,
     img: ''
   },
   {
@@ -119,6 +138,7 @@ export const ExperienceList = [
     h3: 'Ankara Youth Philharmonic Orchestra/Polyphonic Choir - AGFO',
     h4: 'Vice Coordinator- Polyphonic choir member- Volunteer',
     p: 'Definition of volunteering: We determine little village primary schools in need around Turkey. According to their requirement list -these may include clothes, books for library, stationery material or instruments for music classes- we contact with people who can help their needs. After sufficient amount of items collected, we send them or directly go to the school and give them the suplies',
+    logo: AGFO,
     img: olympos
   },
   {
@@ -131,6 +151,7 @@ export const ExperienceList = [
     h3: 'Nicolaus Copernicus University-Poland Torun',
     h4: 'Erasmus exchange student',
     p: 'Political Sciences',
+    logo: UMK,
     img: ''
   },
   {
@@ -143,7 +164,21 @@ export const ExperienceList = [
     h3: 'Ankara University',
     h4: 'Bachelor of Arts -Sociology',
     p: 'Undergraduation thesis: Crime Sociology on Çinçin and Yenidoğan neighbourhood : Alteration on crime due to urban renewal',
+    logo: AU,
     img: sociology,
     img2: eng
+  },
+  {
+    className: 'vertical-timeline-element--work',
+    date: 'September 2006 - June 2010',
+    dateClassName: 'date',
+    background: '#fff',
+    color: '#9A73CC',
+    icon: <VolunteerActivismOutlinedIcon />,
+    h3: 'Doğanay Scout Group',
+    h4: 'Venturer Scout',
+    p: 'Scout under oath. Have training about teamwork, camping/survival in nature, Morse Alphabet and radio communication. Been attended JOTA-JOTI, came together with other scout groups for big events.',
+    logo: DIG,
+    img: ''
   }
 ];

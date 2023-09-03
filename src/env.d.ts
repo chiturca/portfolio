@@ -23,6 +23,10 @@ declare module '*.png' {
   const src: string;
   export default src;
 }
+declare module '*.jpg' {
+  const src: string;
+  export default src;
+}
 type CSSModuleClasses = { readonly [key: string]: string };
 
 declare module '*.module.scss' {
