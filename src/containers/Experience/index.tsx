@@ -37,7 +37,10 @@ function Experience() {
               <h3
                 className="vertical-timeline-element-title"
                 style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={project.logo} height="50vw" onClick={handleClick} /> {project.h3}
+                <div style={{ paddingRight: '10px' }}>
+                  <img src={project.logo} height="50vw" onClick={handleClick} />{' '}
+                </div>
+                {project.h3}
               </h3>
               <h4 className="vertical-timeline-element-subtitle" style={{ color: 'gray' }}>
                 {project.h4}
