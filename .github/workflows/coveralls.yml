@@ -1,9 +1,6 @@
-name: Coveralls
+on: ["push", "pull_request"]
 
-on:
-  push:
-    branches:
-      - main
+name: Coveralls
 
 jobs:
   build:
