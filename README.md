@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# Miray Sönmez Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website showcasing my front-end development and game development projects.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation and Usage](#installation)
+- [Project Showcase](#project-showcase)
+- [Contact Information](#contact-information)
+- [Future Improvements](#future-improvements)
+- [Badges](#badges)
+- [Footer](#footer)
 
-### `npm start`
+## Introduction <a name="introduction"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I'm Miray Sönmez, a passionate Front-End Developer based in Ankara, Turkey. I'm enthusiastic about creating engaging and user-friendly web applications. With a strong foundation in HTML, CSS, JavaScript, and frameworks like React, I enjoy turning creative ideas into functional and visually appealing digital experiences.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In my free time, I explore new technologies, contribute to open-source projects, and occasionally delve into game development. 
 
-### `npm test`
+I'm excited to share my projects and connect with fellow developers and tech enthusiasts. Feel free to explore my portfolio and get in touch!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features <a name="features"></a>
 
-### `npm run build`
+- Projects section with detailed project cards.
+- Detailed project descriptions with links to live demos and GitHub repositories.
+- Experience section showcasing my prefessional story with a timeline.
+- Responsive web design for a seamless experience on various devices.
+- Interactive navigation to explore different sections of the portfolio.
+- Contact information for getting in touch with me.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used <a name="technologies-used"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js**: Used for building the user interface and managing the front-end logic.
+- **TypeScript**: Added for type safety and improved code maintainability.
+- **React Router**: Employed for client-side routing within the application.
+- **SCSS**: Main styling tool used.
+- **Material-UI (MUI)**: Utilized for UI components and styling.
+- **Animate.css**: Applied for creating smooth animations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation and Usage <a name="installation"></a>
 
-### `npm run eject`
+To run this portfolio locally on your machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone this repository to your local device using Git. Open your terminal and run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ``  git clone https://github.com/chiturca/portfolio.git  ``
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- or if you have a SSH key connected to your GitHub account:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    ``  git clone git@github.com:chiturca/portfolio.git  ``
 
-## Learn More
+2. Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ``  cd portfolio  ``
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install project dependencies. Run the following command to install the required packages:
+
+    ``  npm install  ``
+
+
+4. Start the development server. Run the following command:
+
+    ``  npm start  ``
+
+
+This will start the application in development mode, and you can view it in your web browser at [http://localhost:3000](http://localhost:3000).
+
+Now, you should have the portfolio running locally on your machine for testing and development purposes.
+
+
+## Project Showcase <a name="project-showcase"></a>
+
+
+
+
+## Contact Information <a name="contact-information"></a>
+
+**Email:** sonmezmiray@gmail.com
+**GitHub:** https://github.com/chiturca
+**Linked-in:** https://www.linkedin.com/in/miraysonmez/
+
+## Future Improvements <a name="future-improvements"></a>
+
+While the current version of my portfolio offers a glimpse of my work, I have exciting plans for future enhancements:
+
+- **Light/Dark Mode:** I am actively working on implementing a light/dark mode feature to provide a more personalized browsing experience. Stay tuned for this addition!
+
+- **Blogs Section:** In the pipeline is a dedicated blogs section where I will share insights, tutorials, and articles related to web development, game development, and technology in general. I'm looking forward to creating valuable content for you.
+
+Your feedback and suggestions are always welcome as I strive to make this portfolio a valuable resource for showcasing my work and sharing knowledge.
+
+## Badges <a name="badges"></a>
+
+[![github-actions](https://github.com/chiturca/portfolio/actions/workflows/github-actions.yml/badge.svg)](https://github.com/chiturca/portfolio/actions/workflows/github-actions.yml)
+
+<!-- [![Test Coveralls](https://github.com/chiturca/portfolio/actions/workflows/coveralls.yml/badge.svg)](https://github.com/chiturca/portfolio/actions/workflows/coveralls.yml) -->
+
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
+
+<p>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <a href="https://github.com/chiturca/portfolio/blob/main/LICENSE.md">MIT License</a>
+</p>
+
+--- 
+<a name="footer"></a>
+Thank you for checking out my project! Feel free to explore my other projects on my portfolio website.
+
+ [Miray Sönmez Portfolio](https://miraysonmez.vercel.app/)
+
