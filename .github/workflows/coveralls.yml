@@ -1,27 +1,25 @@
-on: ["push", "pull_request"]
+name: Coveralls
 
-name: Test Coveralls
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-
   build:
-    name: Build
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: npm install
 
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16.x
+      - name: Run tests and coverage
+        run: npm test -- --coverage
 
-    - name: npm install, make test-coverage
-      run: |
-        npm install
-        make test-coverage
-
-    - name: Coveralls
-      uses: coverallsapp/github-action@v2
-      with:
+      - name: Upload coverage to Coveralls
+        uses: coverallsapp/github-action@v2.1.0
+        with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
