@@ -1,6 +1,7 @@
 @import '../../App.scss';
 
 .project {
+  margin: 0;
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -8,31 +9,18 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 2%;
-  @include breakpoint(md) {
-    padding-top: 15%;
-  }
 
   h1 {
-    margin-top: 2vw;
     font-size: 3vw;
     color: var(--secondary-color);
     @include breakpoint(md) {
       width: 100%;
-      margin-top: 1vw;
-      font-size: 4vw;
-    }
-  }
-  video {
-    max-width: 50%;
-    border-radius: 10px;
-    @include breakpoint(md) {
-      width: 80%;
+      font-size: 7vw;
     }
   }
 
   p {
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: var(--primary-color);
     @include breakpoint(md) {
       width: 100%;
@@ -44,27 +32,58 @@
     color: var(--secondary-color);
   }
 
-  .link {
-    position: absolute;
-    left: 16%;
-    bottom: 40%;
+  .holder {
     display: flex;
-    flex-direction: column;
-    &:hover {
-      color: var(--primary-color);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: 80%;
+    @include breakpoint(md) {
+      flex-direction: column;
+      max-width: 90%;
+    }
+  }
+  .details {
+    margin: 0 0 0 30px;
+    width: 50%;
+    @include breakpoint(md) {
+      margin: 0;
+      width: 100%;
+      margin-top: 1em;
+    }
+  }
 
+  .bgImage {
+    width: 30em;
+    height: 20em;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.77);
+  }
+
+  .link {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    text-shadow: 0px 3px 15px rgb(204, 101, 248);
+    height: 100%;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.571);
+      box-shadow: 0px 3px 15px rgb(204, 101, 248);
+      color: var(--primary-color);
       &:after {
         opacity: 1;
       }
     }
-    @include breakpoint(md) {
-      position: relative;
-      flex-direction: row;
-      justify-content: center;
-      left: 0;
-      bottom: 0;
-    }
     a {
+      margin: 20px;
       text-decoration: none;
       &:hover {
         color: var(--secondary-color);
@@ -78,8 +97,8 @@
         }
       }
       svg {
-        font-size: 4vw;
-        color: var(--primary-color);
+        font-size: 8vw;
+        color: rgba(0, 0, 0, 0);
         padding: 0.7vw;
         cursor: pointer;
         &:hover {
@@ -87,7 +106,7 @@
           color: var(--secondary-color);
         }
         @include breakpoint(md) {
-          font-size: 7vw;
+          font-size: 20vw;
         }
       }
       &:after {

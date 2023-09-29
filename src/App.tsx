@@ -11,19 +11,21 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
+    <Layout>
+      <div className="App">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<ProjectDisplay />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
+        <div className="page">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/aboutme" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<ProjectDisplay />} />
+            <Route path="/experience" element={<Experience />} />
+          </Routes>
+        </div>
         <Footer />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }
 
