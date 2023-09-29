@@ -25,6 +25,8 @@
     @include breakpoint(md) {
       display: none;
     }
+    cursor: pointer;
+    z-index: 10;
   }
 
   .links {
