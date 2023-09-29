@@ -36,6 +36,15 @@ export const ProjectList = [
     boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
   },
   {
+    name: 'Miray Sönmez - Portfolio',
+    image: portfolio,
+    skills: 'React.js, Typescript, SCSS',
+    summary:
+      'A personal portfolio website showcasing my front-end development and game development projects.',
+    github: 'https://github.com/chiturca/portfolio',
+    website: 'https://miraysonmez.vercel.app/'
+  },
+  {
     name: 'The Incredibles - Refubook',
     image: refubook,
     skills: 'React.js, Redux, Firebase, TailwindCSS',
@@ -43,15 +52,6 @@ export const ProjectList = [
       'A platform where every refugee can interact with and create content (created with a team)',
     github: 'https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles',
     website: 'https://the-incredibles-refubook.netlify.app/'
-  },
-  {
-    name: 'Miray Sönmez - Portfolio',
-    image: portfolio,
-    skills: 'React.js, Typescript, React Router, SCSS, Material-UI (MUI), Animate.css',
-    summary:
-      'A personal portfolio website showcasing my front-end development and game development projects.',
-    github: 'https://github.com/chiturca/portfolio',
-    website: 'https://miraysonmez.vercel.app/'
   },
   {
     name: 'Thunderbird - Hangman',
