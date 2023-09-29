@@ -40,7 +40,9 @@
       "no-restricted-exports": "off",
       "react/jsx-props-no-spreading": "off",
       "import/no-cycle": "off",
-      "import/prefer-default-export": "off"
+      "import/prefer-default-export": "off",
+         // Add this rule to disable Prettier for the entire project (a fix for the Netlify thriving-selkie-8b1e2b - https://github.com/chiturca/portfolio/pull/13/checks )
+    "prettier/prettier": "off"
     }
   }
   
