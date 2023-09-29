@@ -73,6 +73,7 @@ Now, you should have the portfolio running locally on your machine for testing a
 
 ## Project Showcase <a name="project-showcase"></a>
 
+![](https://github.com/chiturca/portfolio/blob/main/src/assets/projects/Portfolio.gif)
 
 
 
