@@ -50,9 +50,12 @@
     position: relative;
     width: max-content;
     height: fit-content;
+    right: 5%;
+    margin-top: 2%;
     @include breakpoint(md) {
-      position: relative;
       width: 50%;
+      right: 0;
+      margin-top: 0;
     }
 
     .miray {
