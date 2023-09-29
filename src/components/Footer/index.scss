@@ -1,12 +1,13 @@
 @import '../../App.scss';
 
 .footer {
-  position: fixed;
-  left: 93%;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
-  width: 7vw;
-  height: 100%;
-  z-index: 1000;
+  right: 0;
+  width: 100px;
+  height: 100vh;
+  // z-index: 1000;
   background: var(--navbg);
   display: flex;
   justify-content: space-between;
