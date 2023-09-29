@@ -78,9 +78,9 @@ Now, you should have the portfolio running locally on your machine for testing a
 
 ## Contact Information <a name="contact-information"></a>
 
-**Email:** sonmezmiray@gmail.com
-**GitHub:** https://github.com/chiturca
-**Linked-in:** https://www.linkedin.com/in/miraysonmez/
+- **Email:** sonmezmiray@gmail.com
+- **GitHub:** https://github.com/chiturca
+- **Linked-in:** https://www.linkedin.com/in/miraysonmez/
 
 ## Future Improvements <a name="future-improvements"></a>
 
