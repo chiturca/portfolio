@@ -1,13 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import About from './containers/About';
 import Projects from './containers/Projects';
 import ProjectDisplay from './containers/ProjectDisplay';
 import Experience from './containers/Experience';
-import Footer from './components/Footer';
+import { Navbar, Footer, Layout } from './components';
+
 import './App.scss';
-import Layout from './components/Layout';
 
 function App() {
   return (

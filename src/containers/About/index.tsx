@@ -3,6 +3,7 @@ import AnimatedLetters from '../../components/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss';
 import {
+  IconDefinition,
   faCss3,
   faGitAlt,
   faGithub,
@@ -13,14 +14,33 @@ import {
 
 function About() {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
-  const aboutArray = ['A', 'b', 'o', 'u', 't', ' ', 'M', 'e'];
-  const skillsArray = ['S', 'k', 'i', 'l', 'l', 's'];
+  const titleText = 'About Me';
+  const skillsText = 'Skills';
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 4000);
   }, []);
+// solution for if you add more & more icons (can be deleted if not)
+  function getIconColor(icon: IconDefinition) {
+    switch (icon) {
+      case faReact:
+        return '#61DBFB'; // Color for React icon
+      case faGithub:
+        return '#1d1a1a'; // Color for GitHub icon
+      case faHtml5:
+        return '#e34c26'; // Color for HTML5 icon
+      case faCss3:
+        return '#264de4'; // Color for CSS3 icon
+      case faJsSquare:
+        return '#f0db4f'; // Color for JavaScript icon
+      case faGitAlt:
+        return '#F1502F'; // Color for Git icon
+      default:
+        return 'black'; // Default color (you can change this to any color you prefer)
+    }
+  }
 
   return (
     <div className="about">
@@ -28,7 +48,7 @@ function About() {
         <div className="aboutme">
           <div style={{ border: 'solid-red' }}>
             <h1>
-              <AnimatedLetters letterClass={letterClass} strArray={aboutArray} idx={3} />
+              <AnimatedLetters letterClass={letterClass} strArray={titleText.split('')} idx={3} />
             </h1>
             <p>
               An ambitious developer specialized in frontend development and game development
@@ -40,7 +60,7 @@ function About() {
           </div>
           <div>
             <h2>
-              <AnimatedLetters letterClass={letterClass} strArray={skillsArray} idx={3} />
+              <AnimatedLetters letterClass={letterClass} strArray={skillsText.split('')} idx={3} />
             </h2>
             <p>
               Javascript, Typescript, ReactJS, <br />
@@ -52,24 +72,11 @@ function About() {
         </div>
         <div className="cube">
           <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faReact} color="#61DBFB" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faGithub} color="#1d1a1a" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faHtml5} color="#e34c26" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faCss3} color="#264de4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#f0db4f" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#F1502F" />
-            </div>
+            {[faReact, faGithub, faHtml5, faCss3, faJsSquare, faGitAlt].map((icon, index) => (
+              <div key={index} className={`face${index + 1}`}>
+                <FontAwesomeIcon icon={icon} color={getIconColor(icon)} />
+              </div>
+            ))}
           </div>
         </div>
       </div>

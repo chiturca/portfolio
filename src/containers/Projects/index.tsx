@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import AnimatedLetters from '../../components/AnimatedLetters';
-import ProjectItem from '../../components/ProjectItem';
+import { AnimatedLetters, ProjectItem } from '../../components';
 import { ProjectList } from '../../helpers/ProjectList';
 import './index.scss';
 
 function Projects() {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
-  const projectsArray = ['P', 'r', 'o', 'j', 'e', 'c', 't', 's'];
+  const projectTitleText = 'Projects';
+const projectTitleLetters = projectTitleText.split('');
 
   useEffect(() => {
     setTimeout(() => {
@@ -17,7 +17,7 @@ function Projects() {
   return (
     <div className="projects">
       <h1 className="projectTitle">
-        <AnimatedLetters letterClass={letterClass} strArray={projectsArray} idx={1} />
+        <AnimatedLetters letterClass={letterClass} strArray={projectTitleLetters} idx={1} />
       </h1>
       <div className="projectList animate__animated animate__pulse">
         {ProjectList.map((project, index) => {
