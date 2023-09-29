@@ -54,7 +54,7 @@ $md: 50em;
 .page {
   width: 100%;
   min-height: fit-content;
-  margin: 0 0 0 100px;
+  margin: 0 20px 0 100px;
   @include breakpoint(md) {
     margin: 80px 0 0 0;
   }

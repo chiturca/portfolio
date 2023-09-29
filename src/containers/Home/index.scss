@@ -4,29 +4,23 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   text-align: start;
   @include breakpoint(md) {
-    width: 100%;
-    left: 0;
+    flex-direction: column;
     text-align: center;
   }
 
   .intro {
-    position: absolute;
-    left: 15%;
-    top: 60%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    position: relative;
+    width: 50%;
+    height: 45vh;
+    padding-top: 6em;
     @include breakpoint(md) {
-      position: relative;
-      top: 8em;
       width: 70%;
-      left: 0;
-      transform: none;
+      padding-top: 1em;
     }
 
     h1 {
@@ -53,23 +47,20 @@
   }
 
   .photo {
-    position: absolute;
-    left: 55%;
-    top: 2vw;
-    max-height: 70%;
+    position: relative;
+    width: max-content;
+    height: fit-content;
     @include breakpoint(md) {
       position: relative;
       width: 50%;
-      top: 30vw;
-      left: 0;
     }
 
     .miray {
-      position: absolute;
+      position: relative;
       left: 2vw;
       border-radius: 10%;
       @include breakpoint(md) {
-        left: 3vw;
+        left: 1vw;
       }
       img {
         height: 42vw;
@@ -83,7 +74,7 @@
     .layer1 {
       position: absolute;
       top: 2vw;
-      left: 4vw;
+      left: 3vw;
       background-color: var(--secondary-color);
       margin-top: 1vw;
       padding-top: 35vw;
