@@ -22,23 +22,23 @@ function About() {
       setLetterClass('text-animate-hover');
     }, 4000);
   }, []);
-// solution for if you add more & more icons (can be deleted if not)
+
   function getIconColor(icon: IconDefinition) {
     switch (icon) {
       case faReact:
-        return '#61DBFB'; // Color for React icon
+        return '#61DBFB';
       case faGithub:
-        return '#1d1a1a'; // Color for GitHub icon
+        return '#1d1a1a';
       case faHtml5:
-        return '#e34c26'; // Color for HTML5 icon
+        return '#e34c26';
       case faCss3:
-        return '#264de4'; // Color for CSS3 icon
+        return '#264de4';
       case faJsSquare:
-        return '#f0db4f'; // Color for JavaScript icon
+        return '#f0db4f';
       case faGitAlt:
-        return '#F1502F'; // Color for Git icon
+        return '#F1502F';
       default:
-        return 'black'; // Default color (you can change this to any color you prefer)
+        return 'black';
     }
   }
 

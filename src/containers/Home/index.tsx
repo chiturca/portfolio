@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import AnimatedLetters from '../../components/AnimatedLetters';
-// import MS from '../../assets/home/MiraySönmez-rbg.png';
+import MS from '../../assets/home/MiraySönmez-rbg.png';
 import './index.scss';
 
 function Home() {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
-// instead of manually splitting the letters
+
   const greeting = 'Hi,';
   const name = 'I am Miray Sönmez';
   const jobTitle = 'Frontend - Game Developer';
-
 
   useEffect(() => {
     const animationDelay = 4000;
@@ -34,7 +33,7 @@ function Home() {
         <div className="layer2"></div>
         <div className="layer3"></div>
         <div className="miray">
-          {/* <img src={MS} alt="Miray" /> */}
+          <img src={MS} alt="Miray" />
         </div>
       </div>
     </div>

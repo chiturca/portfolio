@@ -5,7 +5,6 @@ import Projects from './containers/Projects';
 import ProjectDisplay from './containers/ProjectDisplay';
 import Experience from './containers/Experience';
 import { Navbar, Footer, Layout } from './components';
-
 import './App.scss';
 
 function App() {

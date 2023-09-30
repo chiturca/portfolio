@@ -6,7 +6,7 @@ import './index.scss';
 function Projects() {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
   const projectTitleText = 'Projects';
-const projectTitleLetters = projectTitleText.split('');
+  const projectTitleLetters = projectTitleText.split('');
 
   useEffect(() => {
     setTimeout(() => {
