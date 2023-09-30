@@ -11,8 +11,8 @@
 
   .aboutme {
     position: relative;
-    margin: 10px;
-    left: 15%;
+    margin-top: 5%;
+    left: 10%;
     width: 40%;
     vertical-align: middle;
     display: flex;
@@ -67,11 +67,11 @@
   }
 
   .cube {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     position: absolute;
     top: 0;
-    right: 8%;
+    right: 10%;
     margin-left: 0;
     overflow: hidden;
     display: flex;

@@ -28,6 +28,7 @@ function Projects() {
               name={project.name}
               image={project.image}
               boxShadow={project.boxShadow}
+              skills={project.skills}
             />
           );
         })}

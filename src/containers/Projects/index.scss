@@ -58,6 +58,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    .lang {
+      background-color: rgba(0, 0, 0, 0);
+      color: rgba(0, 0, 0, 0);
+      border-radius: 15px 15px 0 0;
+      height: 100%;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.571);
+        color: var(--secondary-color);
+        cursor: pointer;
+      }
+    }
   }
 
   &:hover {
