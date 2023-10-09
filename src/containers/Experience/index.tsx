@@ -68,7 +68,7 @@ function Experience() {
           vertical: 'center',
           horizontal: 'center'
         }}>
-        <img src={imageSrc} style={{ width: '90%' }} /> {/*quick fixe to the pixelated image */}
+        <img src={imageSrc} style={{ width: '700px', height: '550px' }} />
       </Popover>
     </div>
   );
