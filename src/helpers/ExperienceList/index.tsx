@@ -6,6 +6,7 @@ import global from '../../assets/certificates/TGCustomerServices_2018-2019.png';
 import olympos from '../../assets/certificates/AGFOParticipation_2015.png';
 import sociology from '../../assets/certificates/AUSociology_2010-2016.png';
 import eng from '../../assets/certificates/AUEnglish_2010-2011.png';
+import ÇAHEM from '../../assets/certificates/ÇAHEMComputer_2016.png';
 import WorkIcon from '@mui/icons-material/Work';
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
 import SchoolIcon from '@mui/icons-material/School';
@@ -20,6 +21,7 @@ import GN from '../../assets/logos/GN.png';
 import RC from '../../assets/logos/RC.png';
 import RA from '../../assets/logos/RA.jpg';
 import P from '../../assets/logos/P.png';
+import Ç from '../../assets/logos/Ç.jpg';
 
 export const ExperienceList = [
   {
@@ -114,6 +116,19 @@ export const ExperienceList = [
     p: 'Presenting international tea brands',
     logo: TEACO,
     img: ''
+  },
+  {
+    className: 'vertical-timeline-element--education',
+    date: 'Sep 2016 - Nov 2016',
+    dateClassName: 'date',
+    background: '#F6DBFF',
+    color: '#9A73CC',
+    icon: <SchoolIcon />,
+    h3: 'ÇAHEM',
+    h4: 'Computer Operating',
+    p: 'Computer basics, HTML, CSS, Microsoft Office Programmes',
+    logo: Ç,
+    img: ÇAHEM
   },
   {
     className: 'vertical-timeline-element--work',
