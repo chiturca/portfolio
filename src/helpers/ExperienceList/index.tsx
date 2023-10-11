@@ -7,6 +7,7 @@ import olympos from '../../assets/certificates/AGFOParticipation_2015.png';
 import sociology from '../../assets/certificates/AUSociology_2010-2016.png';
 import eng from '../../assets/certificates/AUEnglish_2010-2011.png';
 import ÇAHEM from '../../assets/certificates/ÇAHEMComputer_2016.png';
+import panteon from '../../assets/certificates/Panteon.jpg';
 import WorkIcon from '@mui/icons-material/Work';
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
 import SchoolIcon from '@mui/icons-material/School';
@@ -35,7 +36,7 @@ export const ExperienceList = [
     h4: 'Game Development',
     p: 'Unity, C#',
     logo: P,
-    img: ''
+    img: panteon
   },
   {
     className: 'vertical-timeline-element--work',

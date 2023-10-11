@@ -63,7 +63,7 @@ function About() {
               <AnimatedLetters letterClass={letterClass} strArray={skillsText.split('')} idx={3} />
             </h2>
             <p>
-              Javascript, Typescript, ReactJS, <br />
+              Javascript, Typescript, ReactJS, NextJS <br />
               Redux, Firebase, HTML, <br />
               CSS, SCSS, BootStrap, TailwindCSS, <br />
               Unity, C#
