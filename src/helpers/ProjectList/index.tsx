@@ -36,6 +36,14 @@ export const ProjectList = [
     boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
   },
   {
+    name: 'Shopify Mock',
+    image: `https://i.ibb.co/61ymkmP/shopify-mock.png`,
+    skills: 'React.js, Shopify Polaris, Vite',
+    summary: `This project was created in response to a recruitment test given to me by a company for a limited time. It showcases my work as a frontend developer and my ability to create robust web applications using Shopify's Polaris Design Kit and React`,
+    github: 'https://github.com/chiturca/shopify',
+    website: 'https://shopify-chiturca.vercel.app'
+  },
+  {
     name: 'Miray Sönmez - Portfolio',
     image: portfolio,
     skills: 'React.js, Typescript, SCSS',
