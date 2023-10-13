@@ -36,6 +36,14 @@ export const ProjectList = [
     boxShadow: '0px 3px 15px rgba(255, 255, 255, 0.77)'
   },
   {
+    name: 'Pure JS Mock',
+    image: `https://i.ibb.co/28r5m5G/Ekran-g-r-nt-s-2023-10-13-133212.png`,
+    skills: 'Vanilla JS, HTML, CSS',
+    summary: `This project was created in response to a frontend recruitment challenge which needs to be completed in 24 hours. Although I didn't secure the position, I'd like to showcase the work I completed during the challenge.`,
+    github: 'https://github.com/chiturca/helpjuice-mock',
+    website: ''
+  },
+  {
     name: 'Shopify Mock',
     image: `https://i.ibb.co/61ymkmP/shopify-mock.png`,
     skills: 'React.js, Shopify Polaris, Vite',
