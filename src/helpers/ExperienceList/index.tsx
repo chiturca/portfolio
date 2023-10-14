@@ -73,7 +73,7 @@ export const ExperienceList = [
     icon: <SchoolIcon />,
     h3: 'GitNation Summits',
     h4: 'Web Development',
-    p: 'Attending to summits for latest web development news. Recommended for anyone who wants to learn more',
+    p: 'Attending to summits for latest web development news.',
     logo: GN,
     img: gamedev,
     img2: reactberlin,
