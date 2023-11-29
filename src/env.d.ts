@@ -9,6 +9,12 @@ declare module '*.pdf' {
   export default src;
 }
 
+declare module '*.docx' {
+  const src: string;
+  export const ReactComponent: unknown;
+  export default src;
+}
+
 declare module '*.mp4' {
   const src: string;
   export const ReactComponent: unknown;
