@@ -60,60 +60,12 @@
 
     .miray {
       position: relative;
-      left: 2vw;
-      border-radius: 10%;
-      @include breakpoint(md) {
-        left: 1vw;
-      }
       img {
         height: 42vw;
         object-fit: cover;
-        border-radius: 10%;
         @include breakpoint(md) {
           height: 70vw;
         }
-      }
-    }
-    .layer1 {
-      position: absolute;
-      top: 2vw;
-      left: 3vw;
-      background-color: var(--secondary-color);
-      margin-top: 1vw;
-      padding-top: 35vw;
-      padding-left: 25vw;
-      border-radius: 10%;
-      @include breakpoint(md) {
-        margin-top: 1vw;
-        padding-top: 59vw;
-        padding-left: 43vw;
-      }
-    }
-    .layer2 {
-      position: absolute;
-      background-color: var(--navbg);
-      margin-top: 1vw;
-      padding-bottom: 36vw;
-      padding-right: 25vw;
-      border-radius: 10%;
-      @include breakpoint(md) {
-        margin-top: 1vw;
-        padding-bottom: 59vw;
-        padding-right: 40vw;
-      }
-    }
-    .layer3 {
-      position: absolute;
-      top: 4vw;
-      left: 1vw;
-      background-color: var(--primary-color);
-      padding-bottom: 38vw;
-      padding-left: 26vw;
-      border-radius: 10%;
-      @include breakpoint(md) {
-        left: 2vw;
-        padding-bottom: 66vw;
-        padding-left: 42vw;
       }
     }
   }
