@@ -1,4 +1,4 @@
-import CV from '../../assets/footer/Miray_Sönmez.docx';
+import CV from '../../assets/footer/Miray_Sönmez.pdf';
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
