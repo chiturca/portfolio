@@ -28,7 +28,7 @@ function Home() {
           <AnimatedLetters letterClass={letterClass} strArray={jobTitle.split('')} idx={1} /> <br />
         </p>
       </div>
-      <div className="photo animate__animated animate__jackInTheBox">
+      <div className="photo animate__animated animate__pulse">
         <div className="miray">
           <img src={MS} alt="Miray" />
         </div>
