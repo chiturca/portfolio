@@ -24,8 +24,22 @@ import RA from "../../assets/logos/RA.jpg";
 import P from "../../assets/logos/P.png";
 import Ç from "../../assets/logos/Ç.jpg";
 import I from "../../assets/logos/inslico.jpg";
+import TOBETO from "../../assets/logos/TOBETO.jpg";
 
 export const ExperienceList = [
+  {
+    className: "vertical-timeline-element--education",
+    date: "Mar 2024 - Present",
+    dateClassName: "date",
+    background: "#F6DBFF",
+    color: "#9A73CC",
+    icon: <SchoolIcon />,
+    h3: "Tobeto - İstanbul Kodluyor Project",
+    h4: "Software Testing and Quality Expertise",
+    p: "Selenium",
+    logo: TOBETO,
+    img: "",
+  },
   {
     className: "vertical-timeline-element--work",
     date: "November 2023 - Present",
