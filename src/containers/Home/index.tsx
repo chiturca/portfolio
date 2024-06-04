@@ -1,19 +1,19 @@
-import { useEffect, useState } from 'react';
-import AnimatedLetters from '../../components/AnimatedLetters';
-import MS from '../../assets/home/MS.png';
-import './index.scss';
+import { useEffect, useState } from "react";
+import AnimatedLetters from "../../components/AnimatedLetters";
+import MS from "../../assets/home/MS.png";
+import "./index.scss";
 
 function Home() {
-  const [letterClass, setLetterClass] = useState<string>('text-animate');
+  const [letterClass, setLetterClass] = useState<string>("text-animate");
 
-  const greeting = 'Hi,';
-  const name = 'I am Miray Sönmez';
-  const jobTitle = 'Frontend - Game Developer';
+  const greeting = "Hi,";
+  const name = "I am Miray Sönmez";
+  const jobTitle = "Frontend Developer - QA";
 
   useEffect(() => {
     const animationDelay = 4000;
     setTimeout(() => {
-      setLetterClass('text-animate-hover');
+      setLetterClass("text-animate-hover");
     }, animationDelay);
   }, []);
 
@@ -21,11 +21,25 @@ function Home() {
     <div className="home">
       <div className="intro">
         <h1>
-          <AnimatedLetters letterClass={letterClass} strArray={greeting.split('')} idx={1} /> <br />
-          <AnimatedLetters letterClass={letterClass} strArray={name.split('')} idx={1} />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={greeting.split("")}
+            idx={1}
+          />{" "}
+          <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={name.split("")}
+            idx={1}
+          />
         </h1>
         <p>
-          <AnimatedLetters letterClass={letterClass} strArray={jobTitle.split('')} idx={1} /> <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={jobTitle.split("")}
+            idx={1}
+          />{" "}
+          <br />
         </p>
       </div>
       <div className="photo animate__animated animate__pulse">

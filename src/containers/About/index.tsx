@@ -56,8 +56,9 @@ function About() {
             </h1>
             <p>
               An ambitious developer specialized in frontend development and
-              game development looking for a full-time role in an IT company
-              with the opportunity to work with the latest technologies.
+              software testing, also experienced in game development looking for
+              a full-time role in an IT company with the opportunity to work
+              with the latest technologies.
             </p>
             <p>
               Quite curious, detail oriented and a collaborative team player.
@@ -79,6 +80,7 @@ function About() {
               Javascript, Typescript, ReactJS, Angular, NextJS <br />
               Redux, Firebase, HTML, <br />
               CSS, SCSS, Bootstrap, TailwindCSS, <br />
+              Jira/Xray, Python-Selenium, Swagger-Postman API tests, <br />
               Unity, C#
             </p>
           </div>
