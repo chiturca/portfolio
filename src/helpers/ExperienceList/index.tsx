@@ -24,12 +24,13 @@ import RA from "../../assets/logos/RA.jpg";
 import P from "../../assets/logos/P.png";
 import Ç from "../../assets/logos/Ç.jpg";
 import I from "../../assets/logos/inslico.jpg";
+import TEDUFO from "../../assets/logos/TEDUFO.png";
 import TOBETO from "../../assets/logos/TOBETO.jpg";
 
 export const ExperienceList = [
   {
     className: "vertical-timeline-element--education",
-    date: "Mar 2024 - Present",
+    date: "March 2024 - Present",
     dateClassName: "date",
     background: "#F6DBFF",
     color: "#9A73CC",
@@ -42,7 +43,20 @@ export const ExperienceList = [
   },
   {
     className: "vertical-timeline-element--work",
-    date: "November 2023 - Present",
+    date: "December 2023 - Present",
+    dateClassName: "date",
+    background: "#fff",
+    color: "#9A73CC",
+    icon: <VolunteerActivismOutlinedIcon />,
+    h3: "TED University Philharmonic Orchestra/Polyphonic Choir",
+    h4: "Polyphonic Choir Member",
+    p: "Alto Conductor",
+    logo: TEDUFO,
+    img: "",
+  },
+  {
+    className: "vertical-timeline-element--work",
+    date: "November 2023 - March 2024",
     dateClassName: "date",
     background: "#9A73CC",
     color: "#fff",
@@ -180,7 +194,7 @@ export const ExperienceList = [
     color: "#9A73CC",
     icon: <VolunteerActivismOutlinedIcon />,
     h3: "Ankara Youth Philharmonic Orchestra/Polyphonic Choir - AGFO",
-    h4: "Vice Coordinator- Polyphonic choir member- Volunteer",
+    h4: "Vice Coordinator- Polyphonic Choir Member- Volunteer",
     p: "Definition of volunteering: We determine little village primary schools in need around Turkey. According to their requirement list -these may include clothes, books for library, stationery material or instruments for music classes- we contact with people who can help their needs. After sufficient amount of items collected, we send them or directly go to the school and give them the suplies",
     logo: AGFO,
     img: olympos,
