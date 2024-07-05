@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .project {
   margin: 0;
@@ -83,13 +83,32 @@
       }
     }
     a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin: 20px;
       text-decoration: none;
+      color: var(--primary-color);
+      span {
+        margin-top: 5px;
+        font-size: 1vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        opacity: 0;
+        transition: opacity 0.3s ease-out;
+        @include breakpoint(md) {
+          font-size: 3vw;
+        }
+      }
       &:hover {
         color: var(--secondary-color);
         i {
           transition: all 0.3s ease-out;
           scale: 110%;
+        }
+        span {
+          opacity: 1;
         }
 
         &:after {
@@ -110,7 +129,7 @@
         }
       }
       &:after {
-        content: '';
+        content: "";
         font-size: 8px;
         letter-spacing: 2px;
         position: relative;
@@ -120,18 +139,6 @@
         text-align: center;
         opacity: 0;
         transition: all 0.3s ease-out;
-      }
-
-      &:first-child {
-        &::after {
-          content: 'GITHUB';
-        }
-      }
-
-      &:nth-child(2) {
-        &::after {
-          content: 'WEBSITE';
-        }
       }
     }
   }

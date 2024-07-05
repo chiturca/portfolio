@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatedLetters, ProjectItem } from "../../components";
-import { FrontList, UnityList } from "../../helpers/ProjectList";
+import { FrontList, UnityList, TestList } from "../../helpers/ProjectList";
 import "./index.scss";
 
 function Projects() {
@@ -11,6 +11,8 @@ function Projects() {
   const frontLetters = frontTitle.split("");
   const unityTitle = "UNITY";
   const unityLetters = unityTitle.split("");
+  const testTitle = "TEST CASES";
+  const testLetters = testTitle.split("");
 
   useEffect(() => {
     setTimeout(() => {
@@ -30,16 +32,37 @@ function Projects() {
       <h2>
         <AnimatedLetters
           letterClass={letterClass}
+          strArray={testLetters}
+          idx={1}
+        />
+      </h2>
+      <div className="projectList animate__animated animate__pulse">
+        {TestList.map((project) => {
+          return (
+            <ProjectItem
+              id={project.id}
+              key={project.id}
+              name={project.name}
+              image={project.image}
+              boxShadow={project.boxShadow}
+              skills={project.skills}
+            />
+          );
+        })}
+      </div>
+      <h2>
+        <AnimatedLetters
+          letterClass={letterClass}
           strArray={frontLetters}
           idx={1}
         />
       </h2>
       <div className="projectList animate__animated animate__pulse">
-        {FrontList.map((project, index) => {
+        {FrontList.map((project) => {
           return (
             <ProjectItem
-              id={index}
-              key={index}
+              id={project.id}
+              key={project.id}
               name={project.name}
               image={project.image}
               boxShadow={project.boxShadow}
@@ -56,11 +79,11 @@ function Projects() {
         />
       </h2>
       <div className="projectList animate__animated animate__pulse">
-        {UnityList.map((project, index) => {
+        {UnityList.map((project) => {
           return (
             <ProjectItem
-              id={index}
-              key={index}
+              id={project.id}
+              key={project.id}
               name={project.name}
               image={project.image}
               boxShadow={project.boxShadow}
