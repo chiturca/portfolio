@@ -8,6 +8,7 @@ import sociology from "../../assets/certificates/AUSociology_2010-2016.png";
 import eng from "../../assets/certificates/AUEnglish_2010-2011.png";
 import ÇAHEM from "../../assets/certificates/ÇAHEMComputer_2016.png";
 import panteon from "../../assets/certificates/Panteon.jpg";
+import QA from "../../assets/certificates/Tobeto_QA_2024.jpg";
 import WorkIcon from "@mui/icons-material/Work";
 import VolunteerActivismOutlinedIcon from "@mui/icons-material/VolunteerActivismOutlined";
 import SchoolIcon from "@mui/icons-material/School";
@@ -30,7 +31,7 @@ import TOBETO from "../../assets/logos/TOBETO.jpg";
 export const ExperienceList = [
   {
     className: "vertical-timeline-element--education",
-    date: "March 2024 - Present",
+    date: "March 2024 - June 2024",
     dateClassName: "date",
     background: "#F6DBFF",
     color: "#9A73CC",
@@ -39,7 +40,7 @@ export const ExperienceList = [
     h4: "Software Testing and Quality Expertise",
     p: "Jira & XRay for manual tests, Python & Selenium for UI test automation, Postman for API tests",
     logo: TOBETO,
-    img: "",
+    img: QA,
   },
   {
     className: "vertical-timeline-element--work",
