@@ -9,6 +9,7 @@ import eng from "../../assets/certificates/AUEnglish_2010-2011.png";
 import ÇAHEM from "../../assets/certificates/ÇAHEMComputer_2016.png";
 import panteon from "../../assets/certificates/Panteon.jpg";
 import QA from "../../assets/certificates/Tobeto_QA_2024.jpg";
+import CP1 from "../../assets/certificates/CiscoPython-1.png";
 import WorkIcon from "@mui/icons-material/Work";
 import VolunteerActivismOutlinedIcon from "@mui/icons-material/VolunteerActivismOutlined";
 import SchoolIcon from "@mui/icons-material/School";
@@ -25,10 +26,24 @@ import RA from "../../assets/logos/RA.jpg";
 import P from "../../assets/logos/P.png";
 import Ç from "../../assets/logos/Ç.jpg";
 import I from "../../assets/logos/inslico.jpg";
+import C from "../../assets/logos/CISCO.jpeg";
 import TEDUFO from "../../assets/logos/TEDUFO.png";
 import TOBETO from "../../assets/logos/TOBETO.jpg";
 
 export const ExperienceList = [
+  {
+    className: "vertical-timeline-element--education",
+    date: "May 2024",
+    dateClassName: "date",
+    background: "#F6DBFF",
+    color: "#9A73CC",
+    icon: <SchoolIcon />,
+    h3: "Cisco Networking Academy",
+    h4: "Python Essentials-1",
+    p: "",
+    logo: C,
+    img: CP1,
+  },
   {
     className: "vertical-timeline-element--education",
     date: "March 2024 - June 2024",
