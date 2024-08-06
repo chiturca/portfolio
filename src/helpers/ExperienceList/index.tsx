@@ -10,6 +10,7 @@ import ÇAHEM from "../../assets/certificates/ÇAHEMComputer_2016.png";
 import panteon from "../../assets/certificates/Panteon.jpg";
 import QA from "../../assets/certificates/Tobeto_QA_2024.jpg";
 import CP1 from "../../assets/certificates/CiscoPython-1.png";
+import SQL1 from "../../assets/certificates/SQLBTK.png";
 import WorkIcon from "@mui/icons-material/Work";
 import VolunteerActivismOutlinedIcon from "@mui/icons-material/VolunteerActivismOutlined";
 import SchoolIcon from "@mui/icons-material/School";
@@ -29,8 +30,22 @@ import I from "../../assets/logos/inslico.jpg";
 import C from "../../assets/logos/CISCO.jpeg";
 import TEDUFO from "../../assets/logos/TEDUFO.png";
 import TOBETO from "../../assets/logos/TOBETO.jpg";
+import BTK from "../../assets/logos/BTK.png";
 
 export const ExperienceList = [
+  {
+    className: "vertical-timeline-element--education",
+    date: "August 2024",
+    dateClassName: "date",
+    background: "#F6DBFF",
+    color: "#9A73CC",
+    icon: <SchoolIcon />,
+    h3: "BTK Academy",
+    h4: "SQL",
+    p: "",
+    logo: BTK,
+    img: SQL1,
+  },
   {
     className: "vertical-timeline-element--education",
     date: "May 2024",
@@ -53,7 +68,7 @@ export const ExperienceList = [
     icon: <SchoolIcon />,
     h3: "Tobeto - İstanbul Kodluyor Project",
     h4: "Software Testing and Quality Expertise",
-    p: "Jira & XRay for manual tests, Python & Selenium for UI test automation, Postman for API tests",
+    p: "Jira & XRay for manual tests, Python & Selenium for UI test automation, Postman for API tests, SQL",
     logo: TOBETO,
     img: QA,
   },
