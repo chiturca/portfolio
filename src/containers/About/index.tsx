@@ -80,7 +80,7 @@ function About() {
               Javascript, Typescript, ReactJS, Angular, NextJS <br />
               Redux, Firebase, HTML, <br />
               CSS, SCSS, Bootstrap, TailwindCSS, <br />
-              Jira/Xray, Python-Selenium, Swagger-Postman API tests, <br />
+              Jira/Xray, Python-Selenium, Swagger-Postman API tests, SQL, <br />
               Unity, C#
             </p>
           </div>
