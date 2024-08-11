@@ -6,13 +6,25 @@ import tappyFish from "../../assets/projects/TappyFish.png";
 import Runner from "../../assets/projects/3DRunner.png";
 import invaders from "../../assets/projects/InvadersFromSpace.png";
 import tobetoTest from "../../assets/projects/tobetoTest.png";
+import libraryAPITest from "../../assets/projects/LibraryNewman.png";
 
 export const TestList = [
+  {
+    id: 11,
+    name: "Library Website",
+    image: libraryAPITest,
+    skills: "Postman API, Newman, Swagger",
+    summary: `Postman API automation test results has been displayed with Newman`,
+    github: "https://github.com/Test-3A-Pair-6/LibraryManagementSystem",
+    website: "",
+    report: "https://tobetolibrary-newman-apitestresult.netlify.app/",
+    boxShadow: "0px 3px 15px rgba(255, 255, 255, 0.77)",
+  },
   {
     id: 10,
     name: "Tobeto Website",
     image: tobetoTest,
-    skills: "Python, Selenium",
+    skills: "Python, Selenium, Jira-Xray",
     summary: `Tobeto Automation Tests have been created with Python-Selenium and the reports are from Jira Manual Tests`,
     github: "https://github.com/Test-3A-Pair-6/Selenium",
     website: "",
