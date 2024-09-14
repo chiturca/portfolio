@@ -10,6 +10,7 @@ import ÇAHEM from "../../assets/certificates/ÇAHEMComputer_2016.png";
 import panteon from "../../assets/certificates/Panteon.jpg";
 import QA from "../../assets/certificates/Tobeto_QA_2024.jpg";
 import CP1 from "../../assets/certificates/CiscoPython-1.png";
+import CP2 from "../../assets/certificates/CiscoPython-2.png";
 import SQL1 from "../../assets/certificates/SQLBTK.png";
 import WorkIcon from "@mui/icons-material/Work";
 import VolunteerActivismOutlinedIcon from "@mui/icons-material/VolunteerActivismOutlined";
@@ -31,8 +32,22 @@ import C from "../../assets/logos/CISCO.jpeg";
 import TEDUFO from "../../assets/logos/TEDUFO.png";
 import TOBETO from "../../assets/logos/TOBETO.jpg";
 import BTK from "../../assets/logos/BTK.png";
+import E from "../../assets/logos/E.png";
 
 export const ExperienceList = [
+  {
+    className: "vertical-timeline-element--work",
+    date: "September 2024 - Present",
+    dateClassName: "date",
+    background: "#9A73CC",
+    color: "#fff",
+    icon: <WorkIcon />,
+    h3: "Etiya",
+    h4: "Software Quality Assurance Engineer - Full Time",
+    p: "",
+    logo: E,
+    img: "",
+  },
   {
     className: "vertical-timeline-element--education",
     date: "August 2024",
@@ -54,10 +69,11 @@ export const ExperienceList = [
     color: "#9A73CC",
     icon: <SchoolIcon />,
     h3: "Cisco Networking Academy",
-    h4: "Python Essentials-1",
+    h4: "Python Essentials",
     p: "",
     logo: C,
     img: CP1,
+    img2: CP2,
   },
   {
     className: "vertical-timeline-element--education",
