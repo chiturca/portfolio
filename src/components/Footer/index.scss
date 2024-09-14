@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .footer {
   position: -webkit-sticky;
@@ -56,7 +56,7 @@
       }
 
       &:after {
-        content: '';
+        content: "";
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
@@ -69,23 +69,18 @@
       }
       &:first-child {
         &::after {
-          content: 'PDF CV';
+          content: "EMAIL";
         }
       }
       &:nth-child(2) {
         &::after {
-          content: 'EMAIL';
+          content: "GITHUB";
         }
       }
 
       &:nth-child(3) {
         &::after {
-          content: 'GITHUB';
-        }
-      }
-      &:nth-child(4) {
-        &::after {
-          content: 'LINKEDIN';
+          content: "LINKEDIN";
         }
       }
     }

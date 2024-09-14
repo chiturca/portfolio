@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
-import Logo from '../../assets/navbar/logo.svg';
-import HomeIcon from '@mui/icons-material/Home';
-import Face3Icon from '@mui/icons-material/Face3';
-import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
-import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
-import CV from '../../assets/footer/Miray_Sönmez.pdf';
-import MenuIcon from '@mui/icons-material/Menu';
-import './index.scss';
+import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import Logo from "../../assets/navbar/logo.svg";
+import HomeIcon from "@mui/icons-material/Home";
+import Face3Icon from "@mui/icons-material/Face3";
+import CollectionsBookmarkIcon from "@mui/icons-material/CollectionsBookmark";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
+// import CV from "../../assets/footer/Miray_Sönmez.pdf";
+import MenuIcon from "@mui/icons-material/Menu";
+import "./index.scss";
 
 function Navbar() {
   const [expand, setExpand] = useState(false);
@@ -18,7 +18,7 @@ function Navbar() {
   }, [location]);
 
   return (
-    <div className="navbar" id={expand ? 'open' : 'close'}>
+    <div className="navbar" id={expand ? "open" : "close"}>
       {/* <button onClick={handleToggleDarkMode}>Toggle Dark Mode</button> */}
       <Link to="/">
         <div className="logo">
@@ -29,7 +29,8 @@ function Navbar() {
         <button
           onClick={() => {
             setExpand((prev) => !prev);
-          }}>
+          }}
+        >
           <MenuIcon />
         </button>
       </div>
@@ -62,16 +63,28 @@ function Navbar() {
           EXPERIENCE
         </NavLink>
         <h3>Contact Links</h3>
-        <a href={CV} download className="cv">
+        {/* <a href={CV} download className="cv">
           Download CV
-        </a>
-        <a href={'mailto:sonmezmiray@gmail.com'} target="_blank" rel="noreferrer">
+        </a> */}
+        <a
+          href={"mailto:sonmezmiray@gmail.com"}
+          target="_blank"
+          rel="noreferrer"
+        >
           Email
         </a>
-        <a href={'https://github.com/chiturca'} target="_blank" rel="noreferrer">
+        <a
+          href={"https://github.com/chiturca"}
+          target="_blank"
+          rel="noreferrer"
+        >
           GitHub
         </a>
-        <a href={'https://www.linkedin.com/in/miraysonmez'} target="_blank" rel="noreferrer">
+        <a
+          href={"https://www.linkedin.com/in/miraysonmez"}
+          target="_blank"
+          rel="noreferrer"
+        >
           LinkedIn
         </a>
       </div>
