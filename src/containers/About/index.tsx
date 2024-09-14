@@ -56,9 +56,9 @@ function About() {
             </h1>
             <p>
               An ambitious developer specialized in frontend development and
-              software testing, also experienced in game development looking for
-              a full-time role in an IT company with the opportunity to work
-              with the latest technologies.
+              software testing, also experienced in game development. Working as
+              a Software Quality Assurance Engineer at{" "}
+              <a href="https://www.etiya.com/en">Etiya</a>.
             </p>
             <p>
               Quite curious, detail oriented and a collaborative team player.
