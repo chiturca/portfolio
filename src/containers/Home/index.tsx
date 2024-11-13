@@ -8,7 +8,8 @@ function Home() {
 
   const greeting = "Hi,";
   const name = "I am Miray Sönmez";
-  const jobTitle = "Frontend Developer - QA";
+  const jobTitle = "Software Quality Assurance Specialist - Etiya";
+  const secondaryTitle = "Frontend Developer";
 
   useEffect(() => {
     const animationDelay = 4000;
@@ -40,6 +41,12 @@ function Home() {
             idx={1}
           />{" "}
           <br />
+          <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={secondaryTitle.split("")}
+            idx={1}
+          />{" "}
         </p>
       </div>
       <div className="photo animate__animated animate__pulse">

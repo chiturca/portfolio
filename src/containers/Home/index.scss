@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .home {
   width: 100%;
@@ -8,6 +8,7 @@
   justify-content: space-around;
   align-items: center;
   text-align: start;
+  padding-left: 2em;
   @include breakpoint(md) {
     flex-direction: column;
     text-align: center;
@@ -17,14 +18,14 @@
     position: relative;
     width: 50%;
     height: 45vh;
-    padding-top: 6em;
+    padding-top: 2.5em;
     @include breakpoint(md) {
       width: 70%;
       padding-top: 1em;
     }
 
     h1 {
-      font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 4vw;
       height: 1em;
       color: var(--secondary-color);
@@ -35,8 +36,8 @@
     }
 
     p {
-      font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 3vw;
+      font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 2.5vw;
       height: 3em;
       color: var(--primary-color);
       left: 4%;
@@ -50,7 +51,7 @@
     position: relative;
     width: max-content;
     height: fit-content;
-    right: 5%;
+    // right: 2%;
     margin-top: 2%;
     @include breakpoint(md) {
       width: 50%;
